@@ -1,0 +1,826 @@
+{
+	"info": {
+		"_postman_id": "5955bafa-a1ed-4f28-9334-20226154392a",
+		"name": "Regression_Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27605714"
+	},
+	"item": [
+		{
+			"name": "PET_ENDPOINT_TESTS",
+			"item": [
+				{
+					"name": "TC0 (CRUD)",
+					"item": [
+						{
+							"name": "Add pet with id and name Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm)\r",
+											"\r",
+											"pm.test(\"Name is setted correctly\", () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"})\r",
+											"\r",
+											"pm.test(\"ID is setted correctly\", () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")))\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"//pm.collectionVariables.set(\"pet_name\", \"Bobby\")\r",
+											"//pm.collectionVariables.set(\"pet_id\", 1000)"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": {{pet_id}},\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"{{pet_name}}\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update pet ID and name",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"Name is updated\", () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.name).to.not.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"})\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 1000,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"Tobby\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update pet back to original",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"Name is updated to \" + pm.collectionVariables.get(\"pet_name\"), () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 1000,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"Bobby\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get by ID",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"Pet ID matches \" + pm.collectionVariables.get(\"pet_id\"), () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")));\r",
+											"})\r",
+											"\r",
+											"pm.test(\"Pet name matches \" + pm.collectionVariables.get(\"pet_name\"), () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"));\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/{{pet_id}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"{{pet_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete pet from DB",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/{{pet_id}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"{{pet_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "TC1 (Get pets by availabilty)",
+					"item": [
+						{
+							"name": "Get a list of available pets",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"areAllAvailable = function(pm) {\r",
+											"  const data = pm.response.json();\r",
+											"\r",
+											"  return data.some((pet) => pet.status === \"available\"); // Recorre todos los pet.status, devuelve true/false\r",
+											"};"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"All pets status is 'available'\", () => {\r",
+											"    let allPetsAvailable = areAllAvailable(pm);\r",
+											"    pm.expect(allPetsAvailable).to.be.true;\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=available",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"findByStatus"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "available"
+										},
+										{
+											"key": "status",
+											"value": "pending",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "sold",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get a list of sold pets",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"areAllSold = function(pm) {\r",
+											"  const data = pm.response.json();\r",
+											"  \r",
+											"  return data.some((pet) => pet.status === \"sold\"); // Recorre todos los pet.status, devuelve true/false\r",
+											"};"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"All pets status is 'sold'\", () => {\r",
+											"    let allPetsSold = areAllSold(pm);\r",
+											"    pm.expect(allPetsSold).to.be.true;\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=sold",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"findByStatus"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "available",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "pending",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "sold"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get a list of pending pets",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"areAllPending = function(pm) {\r",
+											"  const data = pm.response.json();\r",
+											"\r",
+											"  return data.some((pet) => pet.status === \"pending\"); // Recorre todos los pet.status, devuelve true/false\r",
+											"};"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"All pets status is 'pending'\", () => {\r",
+											"    let allPetsPending = areAllPending(pm);\r",
+											"    pm.expect(allPetsPending).to.be.true;\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=pending",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"findByStatus"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "available",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "pending"
+										},
+										{
+											"key": "status",
+											"value": "sold",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "TC2 (Set image to a pet)",
+					"item": [
+						{
+							"name": "Add pet with id and name",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm)\r",
+											"\r",
+											"pm.test(\"Name is setted correctly\", () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"})\r",
+											"\r",
+											"pm.test(\"ID is setted correctly\", () => {\r",
+											"    let data = pm.response.json();\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")))\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"//pm.collectionVariables.set(\"pet_name\", \"Bobby\")\r",
+											"//pm.collectionVariables.set(\"pet_id\", 1000)"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": {{pet_id}},\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"{{pet_name}}\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Set image to an existing pet",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"type": "file",
+											"src": "dog.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/{{pet_id}}/uploadImage",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"{{pet_id}}",
+										"uploadImage"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "STORE_ENDPOINT_TESTS",
+			"item": [
+				{
+					"name": "TC0 (CRUD)",
+					"item": [
+						{
+							"name": "Create new order",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm)\r",
+											"\r",
+											"pm.test(\"Order and petID responses matches with the POST request\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"store_order_id\")));\r",
+											"    pm.expect(data.petId).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")));\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": {{store_order_id}},\r\n  \"petId\": {{pet_id}},\r\n  \"quantity\": 1,\r\n  \"shipDate\": \"2023-05-30T15:37:33.710Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_URL}}/{{store_endpoint}}/order",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{store_endpoint}}",
+										"order"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get order",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{store_endpoint}}/order/{{store_order_id}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{store_endpoint}}",
+										"order",
+										"{{store_order_id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete order",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm)\r",
+											"\r",
+											"pm.test(\"Order \" + pm.collectionVariables.get(\"store_order_id\" + \" succesfully deleted\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.message).to.be.eql(pm.collectionVariables.get(\"store_order_id\"))\r",
+											"}))"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{store_endpoint}}/order/{{store_order_id}}",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{store_endpoint}}",
+										"order",
+										"{{store_order_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "TC1 (Check inventory)",
+					"item": [
+						{
+							"name": "Get sold pets number",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"// Función para guardar las pets con estado \"sold\" en una variable de entorno y usarla en el siguiente request\r",
+											"getSoldPets = function(pm) {\r",
+											"  const data = pm.response.json();\r",
+											"\r",
+											"  pm.environment.set(\"sold_pets\", data.length)\r",
+											"};"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"getSoldPets(pm);\r",
+											"\r",
+											"pm.test(\"At least one pet has status 'sold'\", () => {\r",
+											"    pm.expect(pm.environment.get(\"sold_pets\")).to.be.at.least(1);\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=sold",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{pet_endpoint}}",
+										"findByStatus"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "available",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "pending",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "sold"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get inventory",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"Inventory got the same 'sold' pets number as requesting by status\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.sold).to.be.eql(pm.environment.get(\"sold_pets\"))\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_URL}}/{{store_endpoint}}/inventory",
+									"host": [
+										"{{base_URL}}"
+									],
+									"path": [
+										"{{store_endpoint}}",
+										"inventory"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"validate200OK = function(pm) {",
+					"  pm.test(\"Response status is 200OK\", function() {",
+					"    pm.response.to.have.status(200);",
+					"  });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_URL",
+			"value": "https://petstore.swagger.io/v2",
+			"type": "string"
+		},
+		{
+			"key": "pet_endpoint",
+			"value": "pet",
+			"type": "string"
+		},
+		{
+			"key": "pet_id",
+			"value": "1675",
+			"type": "string"
+		},
+		{
+			"key": "pet_name",
+			"value": "Bobby"
+		},
+		{
+			"key": "store_endpoint",
+			"value": "store",
+			"type": "string"
+		},
+		{
+			"key": "store_order_id",
+			"value": "2675",
+			"type": "string"
+		}
+	]
+}
