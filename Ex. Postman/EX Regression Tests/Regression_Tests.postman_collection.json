@@ -23,6 +23,7 @@
 											"\r",
 											"pm.test(\"Name is setted correctly\", () => {\r",
 											"    let data = pm.response.json();\r",
+											"    console.log(pm.collectionVariables.get(\"pet_name\"))\r",
 											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
 											"})\r",
 											"\r",
@@ -38,8 +39,7 @@
 									"listen": "prerequest",
 									"script": {
 										"exec": [
-											"//pm.collectionVariables.set(\"pet_name\", \"Bobby\")\r",
-											"//pm.collectionVariables.set(\"pet_id\", 1000)"
+											""
 										],
 										"type": "text/javascript"
 									}
@@ -89,7 +89,7 @@
 											"\r",
 											"pm.test(\"Name is updated\", () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.name).to.not.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"new_pet_name\"))\r",
 											"})\r",
 											"\r",
 											""
@@ -103,7 +103,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": 1000,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"Tobby\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+									"raw": "{\r\n  \"id\": {{pet_id}},\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"{{new_pet_name}}\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -154,7 +154,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": 1000,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"Bobby\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+									"raw": "{\r\n  \"id\": {{pet_id}},\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"{{pet_name}}\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -810,7 +810,7 @@
 		},
 		{
 			"key": "pet_name",
-			"value": "Bobby"
+			"value": ""
 		},
 		{
 			"key": "store_endpoint",
@@ -820,6 +820,11 @@
 		{
 			"key": "store_order_id",
 			"value": "2675",
+			"type": "string"
+		},
+		{
+			"key": "new_pet_name",
+			"value": "",
 			"type": "string"
 		}
 	]
