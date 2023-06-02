@@ -89,7 +89,7 @@ namespace Demoblaze.Auto.Tests {
             productPage.ClickOnAddToCart();
             homePage.ClickOnHome();
             productPage.ClickOnCart();
-            cartPage.FindItemOnCart(productName);
+            cartPage.AssertItemIsOnCart(productName);
         }
 
         [TestCase, Order(5)]

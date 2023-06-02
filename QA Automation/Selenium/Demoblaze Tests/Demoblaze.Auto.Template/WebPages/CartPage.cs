@@ -11,9 +11,6 @@ namespace Demoblaze.Auto.WebPages {
     public class CartPage : CommonPage {
         public CartPage(ISetUpWebDriver setUpWebDriver) : base(setUpWebDriver) { }
 
-        string laptopName = "MacBook air";
-        string monitorName = "ASUS Full HD";
-
         // Elements
         private IWebElement buttonPlaceOrder { get { return WebDriver.FindElementByCssSelector("button[data-target='#orderModal']"); } }
 
@@ -35,7 +32,7 @@ namespace Demoblaze.Auto.WebPages {
 
         private By _buttonPurchase { get { return By.XPath("//button[text() = 'Purchase']"); } }
         private By _imageOrderPlaced { get { return By.CssSelector(".sa-placeholder"); } }
-        private By _tbody { get { return By.TagName("tbody"); } }
+        private By _tableButtonDelete { get { return By.XPath("//a[text() = 'Delete']"); } }
 
 
         // Functions
@@ -61,19 +58,17 @@ namespace Demoblaze.Auto.WebPages {
         }
 
         public CartPage AssertNumberOfItems(int expectedNumber) {
-            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_tbody));
+            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_tableButtonDelete));
             Assert.IsTrue(tableBody.Displayed, "La tabla no se muestra");
-            Thread.Sleep(1000); // Hay que esperar a que carguen todas las filas igualmente (??)
 
             int rowsNumber = tableBody.FindElements(By.TagName("tr")).Count;
             Assert.AreEqual(rowsNumber, expectedNumber);
             return this;
         }
 
-        public CartPage FindItemOnCart(string item) {
-            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_tbody));
+        public CartPage AssertItemIsOnCart(string item) {
+            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_tableButtonDelete));
             Assert.IsTrue(tableBody.Displayed, "La tabla no se muestra");
-            Thread.Sleep(1000); // Hay que esperar a que carguen todas las filas igualmente (??)
 
             IWebElement itemLocator = WebDriver.FindElementByXPath("//tr[@class='success']/td[text()='" + item + "']/../td/a");
             Assert.IsTrue(itemLocator.Displayed, "El producto no se encuentra en el carro");
@@ -81,9 +76,8 @@ namespace Demoblaze.Auto.WebPages {
         }
 
         public CartPage DeleteItemFromCart(string item) {
-            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_tbody));
+            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_tableButtonDelete));
             Assert.IsTrue(tableBody.Displayed, "La tabla no se muestra");
-            Thread.Sleep(1000); // Hay que esperar a que carguen todas las filas igualmente (??)
 
             // Click on delete
             IWebElement itemLocator = WebDriver.FindElementByXPath("//tr[@class='success']/td[text()='" + item + "']/../td/a");
