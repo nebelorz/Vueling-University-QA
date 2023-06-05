@@ -823,6 +823,7 @@
 										"exec": [
 											"pm.environment.set(\"user_name\", \"Alex-1001\");\r",
 											"pm.environment.set(\"user_password\", \"1234\");\r",
+											"pm.environment.set(\"user_email\", \"test@test.com\")\r",
 											"\r",
 											"const userObject = {\r",
 											"  id: 1625,\r",
@@ -894,6 +895,100 @@
 											"pm.test(`Response matches username on request (${pm.environment.get(\"user_name\")})`, () => {\r",
 											"    const data = pm.response.json();\r",
 											"    pm.expect(data.username).to.be.equal(pm.environment.get(\"user_name\"))\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/{{user_name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"{{user_name}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update user",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"modified_email\", \"modified@modified.com\");\r",
+											"\r",
+											"const userObject = {\r",
+											"  id: 1625,\r",
+											"  username: \"{{username}}\",\r",
+											"  firstName: \"Alex\",\r",
+											"  lastName: \"Gassó\",\r",
+											"  email: \"{{modified_email}}\",\r",
+											"  password: \"{{user_password}}\",\r",
+											"  phone: \"123456789\",\r",
+											"  userStatus: 0\r",
+											"};\r",
+											"\r",
+											"pm.environment.set(\"modified_user_object\", JSON.stringify(userObject));"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{{userObject}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/user/{{user_name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"{{user_name}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Assert user updated",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"User has been updated\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.email).to.not.equal(pm.environment.get(\"modified_email\"))\r",
 											"})"
 										],
 										"type": "text/javascript"
