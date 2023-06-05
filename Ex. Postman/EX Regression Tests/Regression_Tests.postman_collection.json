@@ -23,13 +23,12 @@
 											"\r",
 											"pm.test(\"Name is setted correctly\", () => {\r",
 											"    let data = pm.response.json();\r",
-											"    console.log(pm.collectionVariables.get(\"pet_name\"))\r",
-											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"    pm.expect(data.name).to.be.eql(pm.environment.get(\"pet_name\"))\r",
 											"})\r",
 											"\r",
 											"pm.test(\"ID is setted correctly\", () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")))\r",
+											"    pm.expect(data.id).to.be.eql(pm.environment.get(\"pet_id\"));\r",
 											"})"
 										],
 										"type": "text/javascript"
@@ -39,7 +38,8 @@
 									"listen": "prerequest",
 									"script": {
 										"exec": [
-											""
+											"pm.environment.set(\"pet_id\", 1625, \"integer\")\r",
+											"pm.environment.set(\"pet_name\", \"Bobby\")"
 										],
 										"type": "text/javascript"
 									}
@@ -58,12 +58,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"raw": "{{baseUrl}}/pet",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}"
+										"pet"
 									]
 								}
 							},
@@ -89,7 +89,7 @@
 											"\r",
 											"pm.test(\"Name is updated\", () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"new_pet_name\"))\r",
+											"    pm.expect(data.name).to.be.eql(pm.environment.get(\"new_pet_name\"))\r",
 											"})\r",
 											"\r",
 											""
@@ -111,12 +111,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"raw": "{{baseUrl}}/pet",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}"
+										"pet"
 									]
 								}
 							},
@@ -140,9 +140,9 @@
 										"exec": [
 											"validate200OK(pm);\r",
 											"\r",
-											"pm.test(\"Name is updated to \" + pm.collectionVariables.get(\"pet_name\"), () => {\r",
+											"pm.test(\"Name is updated to \" + pm.environment.get(\"pet_name\"), () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"    pm.expect(data.name).to.be.eql(pm.environment.get(\"pet_name\"))\r",
 											"})"
 										],
 										"type": "text/javascript"
@@ -162,12 +162,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"raw": "{{baseUrl}}/pet",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}"
+										"pet"
 									]
 								}
 							},
@@ -182,14 +182,14 @@
 										"exec": [
 											"validate200OK(pm);\r",
 											"\r",
-											"pm.test(\"Pet ID matches \" + pm.collectionVariables.get(\"pet_id\"), () => {\r",
+											"pm.test(\"Pet ID matches \" + pm.environment.get(\"pet_id\"), () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")));\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.environment.get(\"pet_id\")));\r",
 											"})\r",
 											"\r",
-											"pm.test(\"Pet name matches \" + pm.collectionVariables.get(\"pet_name\"), () => {\r",
+											"pm.test(\"Pet name matches \" + pm.environment.get(\"pet_name\"), () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"));\r",
+											"    pm.expect(data.name).to.be.eql(pm.environment.get(\"pet_name\"));\r",
 											"})"
 										],
 										"type": "text/javascript"
@@ -200,12 +200,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/{{pet_id}}",
+									"raw": "{{baseUrl}}/pet/{{pet_id}}",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"{{pet_id}}"
 									]
 								}
@@ -233,12 +233,12 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/{{pet_id}}",
+									"raw": "{{baseUrl}}/pet/{{pet_id}}",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"{{pet_id}}"
 									]
 								}
@@ -285,12 +285,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=available",
+									"raw": "{{baseUrl}}/pet/findByStatus?status=available",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"findByStatus"
 									],
 									"query": [
@@ -348,12 +348,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=sold",
+									"raw": "{{baseUrl}}/pet/findByStatus?status=sold",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"findByStatus"
 									],
 									"query": [
@@ -411,12 +411,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=pending",
+									"raw": "{{baseUrl}}/pet/findByStatus?status=pending",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"findByStatus"
 									],
 									"query": [
@@ -455,12 +455,12 @@
 											"\r",
 											"pm.test(\"Name is setted correctly\", () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.name).to.be.eql(pm.collectionVariables.get(\"pet_name\"))\r",
+											"    pm.expect(data.name).to.be.eql(pm.environment.get(\"pet_name\"))\r",
 											"})\r",
 											"\r",
 											"pm.test(\"ID is setted correctly\", () => {\r",
 											"    let data = pm.response.json();\r",
-											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")))\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.environment.get(\"pet_id\")))\r",
 											"})"
 										],
 										"type": "text/javascript"
@@ -470,8 +470,7 @@
 									"listen": "prerequest",
 									"script": {
 										"exec": [
-											"//pm.collectionVariables.set(\"pet_name\", \"Bobby\")\r",
-											"//pm.collectionVariables.set(\"pet_id\", 1000)"
+											""
 										],
 										"type": "text/javascript"
 									}
@@ -490,12 +489,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}",
+									"raw": "{{baseUrl}}/pet",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}"
+										"pet"
 									]
 								}
 							},
@@ -528,12 +527,12 @@
 									]
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/{{pet_id}}/uploadImage",
+									"raw": "{{baseUrl}}/pet/{{pet_id}}/uploadImage",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"{{pet_id}}",
 										"uploadImage"
 									]
@@ -562,8 +561,10 @@
 											"\r",
 											"pm.test(\"Order and petID responses matches with the POST request\", () => {\r",
 											"    const data = pm.response.json();\r",
-											"    pm.expect(data.id).to.be.eql(parseInt(pm.collectionVariables.get(\"store_order_id\")));\r",
-											"    pm.expect(data.petId).to.be.eql(parseInt(pm.collectionVariables.get(\"pet_id\")));\r",
+											"    pm.environment.set(\"response_order_id\", data.id);\r",
+											"    pm.environment.set(\"response_order_petId\", data.petId);\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.environment.get(\"store_order_id\")));\r",
+											"    pm.expect(data.petId).to.be.eql(parseInt(pm.environment.get(\"pet_id\")));\r",
 											"})"
 										],
 										"type": "text/javascript"
@@ -575,7 +576,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": {{store_order_id}},\r\n  \"petId\": {{pet_id}},\r\n  \"quantity\": 1,\r\n  \"shipDate\": \"2023-05-30T15:37:33.710Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
+									"raw": "{\r\n  \"id\": {{store_order_id}},\r\n  \"petId\": {{pet_id}},\r\n  \"quantity\": 1,\r\n  \"shipDate\": \"2023-06-30T15:37:33.710Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -583,12 +584,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_URL}}/{{store_endpoint}}/order",
+									"raw": "{{baseUrl}}/store/order",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{store_endpoint}}",
+										"store",
 										"order"
 									]
 								}
@@ -602,7 +603,13 @@
 									"listen": "test",
 									"script": {
 										"exec": [
-											"validate200OK(pm);"
+											"validate200OK(pm)\r",
+											"\r",
+											"pm.test(\"Order and petID responses matches\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.id).to.be.eql(parseInt(pm.environment.get(\"response_order_id\")));\r",
+											"    pm.expect(data.petId).to.be.eql(parseInt(pm.environment.get(\"response_order_petId\")));\r",
+											"})"
 										],
 										"type": "text/javascript"
 									}
@@ -612,12 +619,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{store_endpoint}}/order/{{store_order_id}}",
+									"raw": "{{baseUrl}}/store/order/{{store_order_id}}",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{store_endpoint}}",
+										"store",
 										"order",
 										"{{store_order_id}}"
 									]
@@ -647,12 +654,12 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{store_endpoint}}/order/{{store_order_id}}",
+									"raw": "{{baseUrl}}/store/order/{{store_order_id}}",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{store_endpoint}}",
+										"store",
 										"order",
 										"{{store_order_id}}"
 									]
@@ -701,12 +708,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/{{pet_endpoint}}/findByStatus?status=sold",
+									"raw": "{{baseUrl}}/pet/findByStatus?status=sold",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
-										"{{pet_endpoint}}",
+										"pet",
 										"findByStatus"
 									],
 									"query": [
@@ -766,6 +773,84 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "USER_ENDPOINT_TESTS",
+			"item": [
+				{
+					"name": "TC 0 (CRUD)",
+					"item": [
+						{
+							"name": "Create new user",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"user_name\", \"Alex#1010\");\r",
+											"pm.environment.set(\"user_password\", \"1234\");\r",
+											"\r",
+											"const userObject = {\r",
+											"  id: 1625,\r",
+											"  username: \"{{user_name}}\",\r",
+											"  firstName: \"Alex\",\r",
+											"  lastName: \"Gassó\",\r",
+											"  email: \"test@test.com\",\r",
+											"  password: \"{{user_password}}\",\r",
+											"  phone: \"123456789\",\r",
+											"  userStatus: 0\r",
+											"};\r",
+											"\r",
+											"pm.environment.set(\"user_object\", JSON.stringify(userObject));"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const userData = JSON.parse(pm.environment.get(\"user_object\"));\r",
+											"const userId = userData.id;\r",
+											"\r",
+											"validate200OK(pm);\r",
+											"pm.test(`User created with correct ID (${userId})`, () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(parseInt(data.message)).to.be.equal(userId);\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{{userObject}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/user/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
 		}
 	],
 	"event": [
@@ -790,42 +875,6 @@
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"key": "base_URL",
-			"value": "https://petstore.swagger.io/v2",
-			"type": "string"
-		},
-		{
-			"key": "pet_endpoint",
-			"value": "pet",
-			"type": "string"
-		},
-		{
-			"key": "pet_id",
-			"value": "1675",
-			"type": "string"
-		},
-		{
-			"key": "pet_name",
-			"value": ""
-		},
-		{
-			"key": "store_endpoint",
-			"value": "store",
-			"type": "string"
-		},
-		{
-			"key": "store_order_id",
-			"value": "2675",
-			"type": "string"
-		},
-		{
-			"key": "new_pet_name",
-			"value": "",
-			"type": "string"
 		}
 	]
 }
