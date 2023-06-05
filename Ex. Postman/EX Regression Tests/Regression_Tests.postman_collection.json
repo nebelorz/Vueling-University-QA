@@ -1010,6 +1010,40 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "Delete User",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"Username has been deleted\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.message).to.be.equal(pm.environment.get(\"user_name\"));\r",
+											"} )"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/{{user_name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"{{user_name}}"
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				}
