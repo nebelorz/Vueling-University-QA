@@ -1044,6 +1044,199 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "Assert user is deleted",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate404(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/{{user_name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"{{user_name}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "TC 1 (LOGIN/LOGOUT)",
+					"item": [
+						{
+							"name": "Create new user",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"user_name\", \"Alex-1001\");\r",
+											"pm.environment.set(\"user_password\", \"1234\");\r",
+											"pm.environment.set(\"user_email\", \"test@test.com\")\r",
+											"\r",
+											"const userObject = {\r",
+											"  id: 1625,\r",
+											"  username: \"{{username}}\",\r",
+											"  firstName: \"Alex\",\r",
+											"  lastName: \"Gassó\",\r",
+											"  email: \"test@test.com\",\r",
+											"  password: \"{{user_password}}\",\r",
+											"  phone: \"123456789\",\r",
+											"  userStatus: 0\r",
+											"};\r",
+											"\r",
+											"pm.environment.set(\"user_object\", JSON.stringify(userObject));"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const userData = JSON.parse(pm.environment.get(\"user_object\"));\r",
+											"const userId = userData.id;\r",
+											"\r",
+											"validate200OK(pm);\r",
+											"pm.test(`User created with ID (${userId})`, () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(parseInt(data.message)).to.be.equal(userId);\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{{userObject}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/user/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login succesfully",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"User has logged in correctly\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.message).to.include(\"logged in\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/login/?username={{user_name}}&password={{user_password}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"login",
+										""
+									],
+									"query": [
+										{
+											"key": "username",
+											"value": "{{user_name}}"
+										},
+										{
+											"key": "password",
+											"value": "{{user_password}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Logout succesfully",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"User has logged in correctly\", () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.message).to.include(\"logged in\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/login/?username={{user_name}}&password={{user_password}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"login",
+										""
+									],
+									"query": [
+										{
+											"key": "username",
+											"value": "{{user_name}}"
+										},
+										{
+											"key": "password",
+											"value": "{{user_password}}"
+										}
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				}
