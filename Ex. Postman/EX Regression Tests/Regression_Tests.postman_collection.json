@@ -792,9 +792,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_URL}}/store/inventory",
+									"raw": "{{baseUrl}}/store/inventory",
 									"host": [
-										"{{base_URL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"store",
@@ -827,7 +827,7 @@
 											"\r",
 											"const userObject = {\r",
 											"  id: 1625,\r",
-											"  username: \"{{username}}\",\r",
+											"  username: \"{{user_name}}\",\r",
 											"  firstName: \"Alex\",\r",
 											"  lastName: \"Gassó\",\r",
 											"  email: \"test@test.com\",\r",
@@ -863,7 +863,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{{userObject}}",
+									"raw": "{{user_object}}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -928,7 +928,7 @@
 											"\r",
 											"const userObject = {\r",
 											"  id: 1625,\r",
-											"  username: \"{{username}}\",\r",
+											"  username: \"{{user_name}}\",\r",
 											"  firstName: \"Alex\",\r",
 											"  lastName: \"Gassó\",\r",
 											"  email: \"{{modified_email}}\",\r",
@@ -957,7 +957,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{{userObject}}",
+									"raw": "{{user_object}}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1128,7 +1128,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{{userObject}}",
+									"raw": "{{user_object}}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1202,9 +1202,9 @@
 										"exec": [
 											"validate200OK(pm);\r",
 											"\r",
-											"pm.test(\"User has logged in correctly\", () => {\r",
+											"pm.test(\"User has logout correctly\", () => {\r",
 											"    const data = pm.response.json();\r",
-											"    pm.expect(data.message).to.include(\"logged in\");\r",
+											"    pm.expect(data.message).to.be.equal(\"ok\");\r",
 											"})"
 										],
 										"type": "text/javascript"
@@ -1215,24 +1215,169 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/user/login/?username={{user_name}}&password={{user_password}}",
+									"raw": "{{baseUrl}}/user/logout",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"user",
-										"login",
-										""
-									],
-									"query": [
-										{
-											"key": "username",
-											"value": "{{user_name}}"
-										},
-										{
-											"key": "password",
-											"value": "{{user_password}}"
+										"logout"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "TC 2 (CREATE USERS WITH ARRAY)",
+					"item": [
+						{
+							"name": "Create users by array",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const usersArrayData = [\r",
+											"    { user_id: 6020, user_username: \"Username6020\"},\r",
+											"    { user_id: 6021, user_username: \"Username6021\"},\r",
+											"    { user_id: 6022, user_username: \"Username6022\"},\r",
+											"    { user_id: 6023, user_username: \"Username6023\"},\r",
+											"]\r",
+											"    pm.environment.set(\"new_users_data\", JSON.stringify(usersArrayData));\r",
+											"\r",
+											"const usersArray = [\r",
+											"    {\r",
+											"        \"id\": usersArrayData[0].user_id,\r",
+											"        \"username\": usersArrayData[0].user_username,\r",
+											"        \"firstName\": \"string\",\r",
+											"        \"lastName\": \"string\",\r",
+											"        \"email\": \"string\",\r",
+											"        \"password\": \"string\",\r",
+											"        \"phone\": \"string\",\r",
+											"        \"userStatus\": 0\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": usersArrayData[1].user_id,\r",
+											"        \"username\": usersArrayData[1].user_username,\r",
+											"        \"firstName\": \"string\",\r",
+											"        \"lastName\": \"string\",\r",
+											"        \"email\": \"string\",\r",
+											"        \"password\": \"string\",\r",
+											"        \"phone\": \"string\",\r",
+											"        \"userStatus\": 0\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": usersArrayData[2].user_id,\r",
+											"        \"username\": usersArrayData[2].user_username,\r",
+											"        \"firstName\": \"string\",\r",
+											"        \"lastName\": \"string\",\r",
+											"        \"email\": \"string\",\r",
+											"        \"password\": \"string\",\r",
+											"        \"phone\": \"string\",\r",
+											"        \"userStatus\": 0\r",
+											"    },\r",
+											"    {\r",
+											"        \"id\": usersArrayData[3].user_id,\r",
+											"        \"username\": usersArrayData[3].user_username,\r",
+											"        \"firstName\": \"string\",\r",
+											"        \"lastName\": \"string\",\r",
+											"        \"email\": \"string\",\r",
+											"        \"password\": \"string\",\r",
+											"        \"phone\": \"string\",\r",
+											"        \"userStatus\": 0\r",
+											"    },\r",
+											"]\r",
+											"\r",
+											"pm.environment.set(\"create_new_users_array\", JSON.stringify(usersArray));"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{{create_new_users_array}}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/user/createWithArray",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"createWithArray"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Assert users are created",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const usersData = JSON.parse(pm.environment.get(\"new_users_data\"));\r",
+											"\r",
+											"let responsesOk = 0;\r",
+											"\r",
+											"for (let i = 0; i < usersData.length; i++) {\r",
+											"    if (pm.response.code === 200) {\r",
+											"        responsesOk++;\r",
+											"        pm.environment.set(\"user_from_array\", usersData[i].user_username);\r",
+											"        pm.sendRequest(pm.environment.get(\"baseUrl\") + \"/user/\" + pm.environment.get(\"user_from_array\"))\r",
+											"    }\r",
+											"}\r",
+											"\r",
+											"pm.test(\"All users where created\", () => {\r",
+											"    pm.expect(responsesOk).to.be.equal(usersData.length)\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const usersData = JSON.parse(pm.environment.get(\"new_users_data\"));\r",
+											"pm.environment.set(\"user_from_array\", usersData[0].user_username);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/{{user_from_array}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"{{user_from_array}}"
 									]
 								}
 							},
