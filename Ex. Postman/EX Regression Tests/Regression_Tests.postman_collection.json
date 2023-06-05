@@ -821,12 +821,12 @@
 									"listen": "prerequest",
 									"script": {
 										"exec": [
-											"pm.environment.set(\"user_name\", \"Alex#1010\");\r",
+											"pm.environment.set(\"user_name\", \"Alex-1001\");\r",
 											"pm.environment.set(\"user_password\", \"1234\");\r",
 											"\r",
 											"const userObject = {\r",
 											"  id: 1625,\r",
-											"  username: \"{{user_name}}\",\r",
+											"  username: \"{{username}}\",\r",
 											"  firstName: \"Alex\",\r",
 											"  lastName: \"Gassó\",\r",
 											"  email: \"test@test.com\",\r",
@@ -877,6 +877,40 @@
 									"path": [
 										"user",
 										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get user by username",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(`Response matches username on request (${pm.environment.get(\"user_name\")})`, () => {\r",
+											"    const data = pm.response.json();\r",
+											"    pm.expect(data.username).to.be.equal(pm.environment.get(\"user_name\"))\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/user/{{user_name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"user",
+										"{{user_name}}"
 									]
 								}
 							},
