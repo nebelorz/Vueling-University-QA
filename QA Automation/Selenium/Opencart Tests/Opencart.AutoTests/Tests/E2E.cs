@@ -76,7 +76,7 @@ namespace Opencart.Auto.Tests {
 
             homePage.GoToContactUs();
             contactUsPage.FillForm();
-            Assert.IsTrue(homePage.GetCurrentUrl().Contains("/contact/success"), "Contact Us form hasn't been sent.");
+            Assert.IsTrue(homePage.GetCurrentUrl().Contains("contact/success"), "Contact Us form hasn't been sent.");
         }
 
         [TestCase]
