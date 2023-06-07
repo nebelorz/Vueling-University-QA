@@ -151,6 +151,7 @@
     <Compile Include="Test.Config\ObjectsTest.cs" />
     <Compile Include="Test.Data\Loaders\LoadScenarioTestCasesConfiguration.cs" />
     <Compile Include="Test.Data\Resources\Models\ScenarioTestCases.cs" />
+    <Compile Include="Tests\TestsSearcher.cs" />
     <Compile Include="Tests\TestsRegister.cs" />
     <Compile Include="Tests\TestsDatepicker.cs" />
     <Compile Include="Tests\TestBase.cs" />

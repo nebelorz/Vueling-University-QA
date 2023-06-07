@@ -1,8 +1,7 @@
-﻿using Template.Auto.WebPages;
-using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using Template.Auto.WebPages;
 
-namespace Template.Auto.Tests {
+namespace Vueling.AutoTests {
 
     [TestFixture]
     internal class TestsRegister : TestSetCleanBase {

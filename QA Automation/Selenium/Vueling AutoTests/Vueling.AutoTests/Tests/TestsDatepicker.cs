@@ -1,7 +1,7 @@
 ﻿using Template.Auto.WebPages;
 using NUnit.Framework;
 
-namespace Template.Auto.Tests {
+namespace Vueling.AutoTests {
 
     [TestFixture]
     internal class TestsDatepicker : TestSetCleanBase {
@@ -11,7 +11,7 @@ namespace Template.Auto.Tests {
             homePage = new HomePage(setUpWebDriver);
 
             homePage.AcceptCookies();
-            //homePage.SelectOriginAndDestination("Barcelona", "Madrid");
+            homePage.SelectOriginAndDestination("Barcelona", "Madrid");
             homePage.PickFirstDayAvailable("AgOsTO");
 
         }

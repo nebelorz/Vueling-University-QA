@@ -9,7 +9,7 @@ using Template.Auto.SetUp;
 using Template.Auto.WebPages;
 using Template.Auto.WebPages.Base;
 
-namespace Template.Auto.Tests {
+namespace Vueling.AutoTests {
 
     [SetUpFixture]
     [Parallelizable(ParallelScope.Fixtures)]

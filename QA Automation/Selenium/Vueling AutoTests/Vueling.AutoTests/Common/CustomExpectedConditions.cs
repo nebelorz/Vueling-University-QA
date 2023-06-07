@@ -50,18 +50,9 @@ namespace Template.Auto.Common {
         public static Func<IWebDriver, IWebElement> ElementIsVisible(By locator) {
             return (webDriver) =>
             {
-                try
-                {
-                    return ElementIfVisible(webDriver.FindElement(locator));
-                }
-                catch (StaleElementReferenceException)
-                {
-                    return null;
-                }
-                catch (NoSuchElementException)
-                {
-                    return null;
-                }
+                try { return ElementIfVisible(webDriver.FindElement(locator)); }
+                catch (StaleElementReferenceException) { return null; }
+                catch (NoSuchElementException) { return null; }
             };
         }
 
