@@ -2,6 +2,7 @@
   "scripts": {
     "test": "cypress open",
     "cypress_chrome": "cypress open --e2e --browser chrome",
+    "cypress_headless_chrome": "cypress run --e2e --browser chrome",
     "mocha_merge": "mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/output.json",
     "json_to_html": "marge cypress/reports/output.json --reportDir ./ --inline",
     "delete_reports": "node deleteReports.js"

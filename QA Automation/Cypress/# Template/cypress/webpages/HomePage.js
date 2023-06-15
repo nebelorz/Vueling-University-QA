@@ -15,7 +15,6 @@ export class HomePage {
     laptops: () => this.categories.container().get(`[onclick="byCat('notebook')"]`),
     monitors: () => this.categories.container().get(`[onclick="byCat('monitor')"]`),
   };
-
   // Functions
   clickOnNavbar(button) {
     button.should("exist").and("be.visible"); // Before clicking on the element, assert if it exists and it's visible
