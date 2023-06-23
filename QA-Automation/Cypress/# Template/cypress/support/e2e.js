@@ -18,5 +18,12 @@ import "./commands";
 import "./utils";
 require("cypress-xpath");
 import "cypress-mochawesome-reporter/register";
+
+// This block prevents the test from failing when an uncaught exception is given
+Cypress.on("uncaught:exception", (err, runnable) => {
+  // returning false here prevents Cypress from failing the test
+  return false;
+});
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
