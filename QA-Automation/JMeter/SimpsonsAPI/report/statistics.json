@@ -1,0 +1,34 @@
+{
+  "01 GET Personajes 15USR/2mins" : {
+    "transaction" : "01 GET Personajes 15USR/2mins",
+    "sampleCount" : 8349,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 305.21966702599184,
+    "medianResTime" : 299.0,
+    "minResTime" : 283.0,
+    "maxResTime" : 590.0,
+    "pct1ResTime" : 323.0,
+    "pct2ResTime" : 338.5,
+    "pct3ResTime" : 417.0,
+    "throughput" : 23.17499354630974,
+    "receivedKBytesPerSec" : 44.34600621098293,
+    "sentKBytesPerSec" : 4.087310058527337
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 8349,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 305.21966702599184,
+    "medianResTime" : 299.0,
+    "minResTime" : 283.0,
+    "maxResTime" : 590.0,
+    "pct1ResTime" : 323.0,
+    "pct2ResTime" : 338.5,
+    "pct3ResTime" : 417.0,
+    "throughput" : 23.17499354630974,
+    "receivedKBytesPerSec" : 44.34600621098293,
+    "sentKBytesPerSec" : 4.087310058527337
+  }
+}
