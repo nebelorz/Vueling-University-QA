@@ -1,0 +1,51 @@
+---
+settings:
+  # ! ALL paths without blank spaces
+  artifacts-dir: C:\Users\a_gas\Desktop\Pokemon\poke.api\loadartifacts_tmp
+  env:
+    BASE_DIR: C:\Users\a_gas\Desktop\Pokemon
+
+services:
+  - module: shellexec
+    post-process:
+      - mkdir ${BASE_DIR}\load\default\HTML
+      - jmeter -g ${BASE_DIR}\load\default\Results.csv -o ${BASE_DIR}\load\default\HTML
+
+execution:
+  - executor: jmeter
+    scenario: smoke
+
+scenarios:
+  smoke:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 5
+      Rpm: 5
+  load:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 5
+      Rpm: 5
+
+reporting:
+  - module: final-stats
+    summary: true
+    percentiles: true
+    failed-labels: false
+    test-duration: true
+  - module: blazemeter
+    report-name: PokeAPI Tests Report
+    test: Taurus test
+    project: PokeAPI Tests Report
