@@ -1,0 +1,300 @@
+{
+	"info": {
+		"_postman_id": "5153a234-8e3d-4a07-86a9-c4f3846ce6c7",
+		"name": "UNIVERSITY_QA_REGRESSION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27605714"
+	},
+	"item": [
+		{
+			"name": "E2E",
+			"item": [
+				{
+					"name": "API CHUCKNORRIS",
+					"item": [
+						{
+							"name": "TC0 (Get categories list)",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"//Asserts\r",
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(\"Body response is not empty\", () => {\r",
+											"    let data = pm.response.json();\r",
+											"\r",
+											"    pm.expect(data.length).to.be.at.least(1);\r",
+											"})\r",
+											"\r",
+											"// Set body response to env. var\r",
+											"pm.environment.set(\"categories_list\", pm.response.json());"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrlChuckNorris}}/jokes/categories",
+									"host": [
+										"{{baseUrlChuckNorris}}"
+									],
+									"path": [
+										"jokes",
+										"categories"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "TC1 (Validate category and icon URL)",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"let categories = pm.environment.get(\"categories_list\");\r",
+											"let iconURL = \"https://assets.chucknorris.host/img/avatar/chuck-norris.png\";\r",
+											"\r",
+											"pm.environment.set(\"category_name\", pickRandomFrom(categories));\r",
+											"pm.environment.set(\"expected_icon_url\", iconURL);"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"let responseData = pm.response.json();\r",
+											"let responseCategory = responseData.categories.toString();\r",
+											"let responseIconURL = responseData.icon_url.toString();\r",
+											"\r",
+											"let pathCategoryName = pm.environment.get(\"category_name\");\r",
+											"let expectedIconURL = pm.environment.get(\"expected_icon_url\");\r",
+											"\r",
+											"// Asserts\r",
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(`Response body 'categories' is equal to ${pathCategoryName}`, () => {\r",
+											"    pm.expect(pathCategoryName).to.be.eql(responseCategory);\r",
+											"})\r",
+											"\r",
+											"pm.test(`Response body 'icon_url' value is equal to ${expectedIconURL}`, () => {\r",
+											"    pm.expect(expectedIconURL).to.be.eql(responseIconURL);\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrlChuckNorris}}/jokes/random?category={{category_name}}",
+									"host": [
+										"{{baseUrlChuckNorris}}"
+									],
+									"path": [
+										"jokes",
+										"random"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "{{category_name}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "API DATOS MADRID (BOMBEROS)",
+					"item": [
+						{
+							"name": "TC0 (Get random format)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"// Asserts\r",
+											"validate200OK(pm);"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const availableFormats = [\".csv\", \".xml\", \".geo\", \".rdf\"]\r",
+											"\r",
+											"pm.environment.set(\".available_formats\", pickRandomFrom(availableFormats));"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrlBomberos}}/catalogo/211642-0-bomberos-parques{{.available_formats}}",
+									"host": [
+										"{{baseUrlBomberos}}"
+									],
+									"path": [
+										"catalogo",
+										"211642-0-bomberos-parques{{.available_formats}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "TC1 (Get data)",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"let bomberosID = \"12352\";\r",
+											"let bomberosLocality = \"MADRID\";\r",
+											"let bomberosPostalCode = \"28037\";\r",
+											"let bomberosStreetAddress = \"AVENIDA HELLIN 52\";\r",
+											"\r",
+											"pm.environment.set(\"bomberos_id\", bomberosID);\r",
+											"pm.environment.set(\"bomberos_locality\", bomberosLocality);\r",
+											"pm.environment.set(\"bomberos_postalcode\", bomberosPostalCode);\r",
+											"pm.environment.set(\"bomberos_street_address\", bomberosStreetAddress);\r",
+											"\r",
+											"findInList = function(object, id) {\r",
+											"    let objectFound;\r",
+											"\r",
+											"    for (let i = 0; i < object.length; i++) {\r",
+											"        if (object[i].id === id) {\r",
+											"            objectFound = object[i];\r",
+											"            return objectFound;\r",
+											"        }\r",
+											"    }\r",
+											"    return null;\r",
+											"}\r",
+											"\r",
+											"getLocality = function(object) { return object.address[\"locality\"]; };\r",
+											"getPostalCode = function(object) { return object.address[\"postal-code\"]; };\r",
+											"getStreetAddress = function(object) { return object.address[\"street-address\"]; };"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const responseData = pm.response.json();\r",
+											"const responseDataGraphValues = Object.values(responseData)[1];\r",
+											"\r",
+											"// Set environment to local variables to ease of use\r",
+											"let expectedBomberosID = pm.environment.get(\"bomberos_id\");\r",
+											"let expectedBomberosLocality = pm.environment.get(\"bomberos_locality\");\r",
+											"let expectedBomberosPostalCode = pm.environment.get(\"bomberos_postalcode\");\r",
+											"let expectedBomberosStreetAddress = pm.environment.get(\"bomberos_street_address\");\r",
+											"\r",
+											"// Find object and key-values\r",
+											"let foundObjectID = findInList(responseDataGraphValues, expectedBomberosID);\r",
+											"let ObjectLocality = getLocality(foundObjectID);\r",
+											"let ObjectPostalCode = getPostalCode(foundObjectID);\r",
+											"let ObjectStreetAddress = getStreetAddress(foundObjectID);\r",
+											"\r",
+											"// Asserts\r",
+											"validate200OK(pm);\r",
+											"\r",
+											"pm.test(`ID ${expectedBomberosID} exists`, () => {\r",
+											"    pm.expect(foundObjectID).to.be.not.null;\r",
+											"})\r",
+											"\r",
+											"pm.test(\"Object values match with the expected\", () => {\r",
+											"    pm.expect(ObjectLocality).to.be.equal(expectedBomberosLocality);\r",
+											"    pm.expect(ObjectPostalCode).to.be.equal(expectedBomberosPostalCode);\r",
+											"    pm.expect(ObjectStreetAddress).to.be.equal(expectedBomberosStreetAddress);\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrlBomberos}}/catalogo/211642-0-bomberos-parques.json",
+									"host": [
+										"{{baseUrlBomberos}}"
+									],
+									"path": [
+										"catalogo",
+										"211642-0-bomberos-parques.json"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"validate200OK = function(pm) {",
+					"  pm.test(\"Response status is 200OK\", function() {",
+					"    pm.response.to.have.status(200);",
+					"  });",
+					"}",
+					"",
+					"validate404 = function(pm) {",
+					"  pm.test(\"Response status is 404 Not Found\", function() {",
+					"    pm.response.to.have.status(404);",
+					"  });",
+					"}",
+					"",
+					"pickRandomFrom = function(items) {",
+					"    return items[items.length * Math.random() | 0];",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
