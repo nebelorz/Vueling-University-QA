@@ -1,0 +1,1488 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687506493571,115,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1934,165,1,1,https://pokeapi.co/api/v2/berry/pinap,115,0,87
+1687506553325,736,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1912,164,1,1,https://pokeapi.co/api/v2/berry/razz,736,0,0
+1687506612769,87,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1926,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,87,0,63
+1687506689504,102,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,1,1,https://pokeapi.co/api/v2/berry/pinap,102,0,79
+1687506749403,0,pokeapi.co/api/v2/berry-firmness/pinap,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/v2/berry-firmness/pinap,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.client.ClientProtocolException]]]
+
+****** comparison: [[[200                                                                   ]]]
+
+/",1137,0,1,1,http:/api/v2/berry-firmness/pinap,0,0,0
+1687506761223,90,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1922,165,10,10,https://pokeapi.co/api/v2/berry/pinap,90,0,66
+1687506761232,81,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-8,text,true,,1957,164,10,10,https://pokeapi.co/api/v2/berry/razz,81,0,57
+1687506761233,86,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-9,text,true,,1922,166,8,8,https://pokeapi.co/api/v2/berry/iapapa,86,0,61
+1687506761225,94,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,8,8,https://pokeapi.co/api/v2/berry/pinap,94,0,72
+1687506761232,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-7,text,true,,1932,165,8,8,https://pokeapi.co/api/v2/berry/pinap,88,0,66
+1687506761229,93,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-5,text,true,,1949,164,8,8,https://pokeapi.co/api/v2/berry/razz,92,0,68
+1687506761233,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-10,text,true,,1922,165,5,5,https://pokeapi.co/api/v2/berry/pinap,91,0,66
+1687506761230,102,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-6,text,true,,1920,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,101,0,76
+1687506761223,285,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1912,166,2,2,https://pokeapi.co/api/v2/berry/iapapa,285,0,72
+1687506761223,288,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-4,text,true,,1909,164,1,1,https://pokeapi.co/api/v2/berry/razz,287,0,78
+1687506782948,74,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-10,text,true,,1945,164,10,10,https://pokeapi.co/api/v2/berry/razz,74,0,51
+1687506782946,83,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1947,164,9,9,https://pokeapi.co/api/v2/berry/razz,82,0,50
+1687506782948,86,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-7,text,true,,1957,164,8,8,https://pokeapi.co/api/v2/berry/razz,86,0,64
+1687506782950,84,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-8,text,true,,1924,165,8,8,https://pokeapi.co/api/v2/berry/pinap,84,0,62
+1687506782949,85,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-4,text,true,,1916,166,8,8,https://pokeapi.co/api/v2/berry/iapapa,85,0,63
+1687506782950,86,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-5,text,true,,1926,165,5,5,https://pokeapi.co/api/v2/berry/pinap,86,0,64
+1687506782948,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,4,4,https://pokeapi.co/api/v2/berry/pinap,91,0,60
+1687506782950,92,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-9,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,92,0,64
+1687506782950,95,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-6,text,true,,1918,166,2,2,https://pokeapi.co/api/v2/berry/iapapa,94,0,61
+1687506782946,615,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1916,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,614,0,50
+1687506799828,80,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-7,text,true,,1928,165,10,10,https://pokeapi.co/api/v2/berry/pinap,80,0,57
+1687506799828,80,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-8,text,true,,1922,165,10,10,https://pokeapi.co/api/v2/berry/pinap,80,0,57
+1687506799825,88,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1918,166,8,8,https://pokeapi.co/api/v2/berry/iapapa,87,0,60
+1687506799828,90,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-5,text,true,,1922,166,7,7,https://pokeapi.co/api/v2/berry/iapapa,90,0,67
+1687506799825,96,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-4,text,true,,1930,165,6,6,https://pokeapi.co/api/v2/berry/pinap,96,0,72
+1687506799826,95,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1949,164,6,6,https://pokeapi.co/api/v2/berry/razz,95,0,71
+1687506799828,93,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-9,text,true,,1931,164,6,6,https://pokeapi.co/api/v2/berry/razz,93,0,69
+1687506799825,96,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-6,text,true,,1951,164,6,6,https://pokeapi.co/api/v2/berry/razz,96,0,71
+1687506799828,93,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-10,text,true,,1919,166,6,6,https://pokeapi.co/api/v2/berry/iapapa,93,0,69
+1687506799825,100,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1934,165,5,5,https://pokeapi.co/api/v2/berry/pinap,99,0,74
+1687506804134,71,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,10,10,https://pokeapi.co/api/v2/berry/pinap,71,0,46
+1687506804136,81,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-7,text,true,,1922,165,9,9,https://pokeapi.co/api/v2/berry/pinap,81,0,56
+1687506804134,83,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1920,166,9,9,https://pokeapi.co/api/v2/berry/iapapa,83,0,57
+1687506804138,80,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-10,text,true,,1924,166,9,9,https://pokeapi.co/api/v2/berry/iapapa,79,0,53
+1687506804135,83,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-6,text,true,,1922,164,9,9,https://pokeapi.co/api/v2/berry/razz,82,0,59
+1687506804135,87,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1928,165,8,8,https://pokeapi.co/api/v2/berry/pinap,85,0,60
+1687506804137,84,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-4,text,true,,1945,164,8,8,https://pokeapi.co/api/v2/berry/razz,83,0,55
+1687506804137,86,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-8,text,true,,1949,164,8,8,https://pokeapi.co/api/v2/berry/razz,85,0,57
+1687506804136,91,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-5,text,true,,1916,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,90,0,62
+1687506804138,89,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-9,text,true,,1932,165,3,3,https://pokeapi.co/api/v2/berry/pinap,88,0,57
+1687506870001,88,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-9,text,true,,1918,166,10,10,https://pokeapi.co/api/v2/berry/iapapa,88,0,64
+1687506869998,91,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1918,166,10,10,https://pokeapi.co/api/v2/berry/iapapa,91,0,68
+1687506870001,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-8,text,true,,1924,165,10,10,https://pokeapi.co/api/v2/berry/pinap,88,0,64
+1687506869998,91,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-5,text,true,,1920,166,10,10,https://pokeapi.co/api/v2/berry/iapapa,91,0,69
+1687506869998,95,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1924,165,9,9,https://pokeapi.co/api/v2/berry/pinap,95,0,69
+1687506869998,95,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-6,text,true,,1949,164,9,9,https://pokeapi.co/api/v2/berry/razz,95,0,70
+1687506869997,97,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-4,text,true,,1955,164,9,9,https://pokeapi.co/api/v2/berry/razz,96,0,72
+1687506869998,98,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1928,165,5,5,https://pokeapi.co/api/v2/berry/pinap,98,0,70
+1687506870001,98,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-7,text,true,,1922,165,2,2,https://pokeapi.co/api/v2/berry/pinap,98,0,73
+1687506870001,99,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-10,text,true,,1927,164,2,2,https://pokeapi.co/api/v2/berry/razz,99,0,73
+1687506893523,72,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1930,165,10,10,https://pokeapi.co/api/v2/berry/pinap,72,0,49
+1687506893525,70,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-10,text,true,,1928,166,10,10,https://pokeapi.co/api/v2/berry/iapapa,70,0,48
+1687506893524,75,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-8,text,true,,1949,164,8,8,https://pokeapi.co/api/v2/berry/razz,75,0,51
+1687506893523,76,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-7,text,true,,1920,165,8,8,https://pokeapi.co/api/v2/berry/pinap,76,0,53
+1687506893522,77,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-5,text,true,,1924,165,8,8,https://pokeapi.co/api/v2/berry/pinap,77,0,53
+1687506893522,80,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1918,166,5,5,https://pokeapi.co/api/v2/berry/iapapa,80,0,56
+1687506893522,80,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1945,164,5,5,https://pokeapi.co/api/v2/berry/razz,80,0,54
+1687506893524,80,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-4,text,true,,1949,164,5,5,https://pokeapi.co/api/v2/berry/razz,79,0,56
+1687506893525,79,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-9,text,true,,1930,165,5,5,https://pokeapi.co/api/v2/berry/pinap,78,0,56
+1687506893522,86,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-6,text,true,,1934,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,85,0,58
+1687507009115,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-8,text,true,,1926,165,10,10,https://pokeapi.co/api/v2/berry/pinap,88,0,66
+1687507009115,90,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-7,text,true,,1947,164,10,10,https://pokeapi.co/api/v2/berry/razz,90,0,65
+1687507009113,94,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-5,text,true,,1922,165,8,8,https://pokeapi.co/api/v2/berry/pinap,94,0,66
+1687507009112,95,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1920,166,8,8,https://pokeapi.co/api/v2/berry/iapapa,95,0,71
+1687507009117,94,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-10,text,true,,1920,165,6,6,https://pokeapi.co/api/v2/berry/pinap,93,0,70
+1687507009113,98,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,6,6,https://pokeapi.co/api/v2/berry/pinap,98,0,75
+1687507009112,99,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1920,166,6,6,https://pokeapi.co/api/v2/berry/iapapa,98,0,75
+1687507009113,101,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-4,text,true,,1951,164,5,5,https://pokeapi.co/api/v2/berry/razz,100,0,77
+1687507009116,98,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-9,text,true,,1922,166,5,5,https://pokeapi.co/api/v2/berry/iapapa,97,0,74
+1687507009115,102,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-6,text,true,,1957,164,2,2,https://pokeapi.co/api/v2/berry/razz,102,0,76
+1687507041285,101,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1957,164,3,3,https://pokeapi.co/api/v2/berry/razz,101,0,77
+1687507041285,104,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1936,165,3,3,https://pokeapi.co/api/v2/berry/pinap,104,0,77
+1687507041285,146,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1916,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,146,0,78
+1687507059183,0,pokeapi.co/api/v2/berry-firmness/hard,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/v2/berry-firmness/hard,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.client.ClientProtocolException]]]
+
+****** comparison: [[[200                                                                   ]]]
+
+/",1136,0,3,3,http:/api/v2/berry-firmness/hard,0,0,0
+1687507065177,0,pokeapi.co/api/v2/berry-firmness/very-soft,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/v2/berry-firmness/very-soft,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.client.ClientProtocolException]]]
+
+****** comparison: [[[200                                                                   ]]]
+
+/",1141,0,3,3,http:/api/v2/berry-firmness/very-soft,0,0,0
+1687507069412,77,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1955,164,3,3,https://pokeapi.co/api/v2/berry/razz,77,0,52
+1687507069412,82,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1922,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,82,0,57
+1687507069412,84,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,3,3,https://pokeapi.co/api/v2/berry/pinap,84,0,57
+1687507088090,86,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1949,164,3,3,https://pokeapi.co/api/v2/berry/razz,86,0,65
+1687507088090,92,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,92,0,70
+1687507088090,96,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1916,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,96,0,65
+1687507125204,78,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1949,164,6,6,https://pokeapi.co/api/v2/berry/razz,78,0,54
+1687507125206,76,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-4,text,true,,1930,165,6,6,https://pokeapi.co/api/v2/berry/pinap,76,0,53
+1687507125204,78,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1922,166,6,6,https://pokeapi.co/api/v2/berry/iapapa,78,0,56
+1687507125206,78,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-5,text,true,,1918,166,6,6,https://pokeapi.co/api/v2/berry/iapapa,78,0,54
+1687507125206,85,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-6,text,true,,1949,164,6,6,https://pokeapi.co/api/v2/berry/razz,85,0,61
+1687507125204,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1926,165,6,6,https://pokeapi.co/api/v2/berry/pinap,91,0,63
+1687507183479,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,6,6,https://pokeapi.co/api/v2/berry/pinap,91,0,68
+1687507183480,90,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-5,text,true,,1922,166,6,6,https://pokeapi.co/api/v2/berry/iapapa,90,0,68
+1687507183479,100,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-6,text,true,,1925,164,6,6,https://pokeapi.co/api/v2/berry/razz,100,0,75
+1687507183479,100,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1922,166,6,6,https://pokeapi.co/api/v2/berry/iapapa,100,0,75
+1687507183479,108,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-4,text,true,,1920,165,6,6,https://pokeapi.co/api/v2/berry/pinap,108,0,80
+1687507183480,113,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1925,164,6,6,https://pokeapi.co/api/v2/berry/razz,113,0,79
+1687507202395,76,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1929,164,3,3,https://pokeapi.co/api/v2/berry/razz,76,0,51
+1687507202395,76,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,76,0,50
+1687507202395,80,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1926,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,80,0,52
+1687507227786,90,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,90,0,68
+1687507227786,90,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1949,164,3,3,https://pokeapi.co/api/v2/berry/razz,90,0,68
+1687507227786,99,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1914,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,99,0,75
+1687507267035,83,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,83,0,61
+1687507267036,90,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,2,2,https://pokeapi.co/api/v2/berry/pinap,89,0,65
+1687507267035,91,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1920,166,2,2,https://pokeapi.co/api/v2/berry/iapapa,90,0,67
+1687507347080,92,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1922,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,92,0,69
+1687507347080,92,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1923,164,3,3,https://pokeapi.co/api/v2/berry/razz,92,0,69
+1687507347080,94,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1920,165,3,3,https://pokeapi.co/api/v2/berry/pinap,94,0,71
+1687507438492,88,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1928,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,88,0,64
+1687507438492,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,3,3,https://pokeapi.co/api/v2/berry/pinap,88,0,65
+1687507438492,89,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1929,164,3,3,https://pokeapi.co/api/v2/berry/razz,89,0,64
+1687507463817,74,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,3,3,https://pokeapi.co/api/v2/berry/pinap,74,0,51
+1687507463817,80,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1924,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,80,0,56
+1687507463817,82,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1949,164,2,2,https://pokeapi.co/api/v2/berry/razz,82,0,58
+1687507481738,226,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2208,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,226,0,0
+1687507498022,94,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1921,164,3,3,https://pokeapi.co/api/v2/berry/razz,94,0,70
+1687507498022,94,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1926,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,94,0,69
+1687507498022,96,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1920,165,3,3,https://pokeapi.co/api/v2/berry/pinap,96,0,70
+1687507515926,227,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2597,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,226,0,0
+1687507533799,84,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,6,6,https://pokeapi.co/api/v2/berry/pinap,83,0,61
+1687507533800,83,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-4,text,true,,1932,165,6,6,https://pokeapi.co/api/v2/berry/pinap,83,0,60
+1687507533804,82,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-6,text,true,,1920,166,4,4,https://pokeapi.co/api/v2/berry/iapapa,82,0,58
+1687507533799,87,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1922,166,4,4,https://pokeapi.co/api/v2/berry/iapapa,87,0,61
+1687507533799,89,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1949,164,2,2,https://pokeapi.co/api/v2/berry/razz,89,0,63
+1687507533803,87,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-5,text,true,,1949,164,1,1,https://pokeapi.co/api/v2/berry/razz,87,0,60
+1687507585237,72,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1945,164,3,3,https://pokeapi.co/api/v2/berry/razz,72,0,49
+1687507585237,73,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,72,0,49
+1687507585237,74,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1920,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,74,0,49
+1687507597900,80,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1918,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,80,0,54
+1687507597900,83,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1943,164,2,2,https://pokeapi.co/api/v2/berry/razz,82,0,55
+1687507597900,83,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1926,165,2,2,https://pokeapi.co/api/v2/berry/pinap,82,0,54
+1687507623103,79,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1930,165,1,1,https://pokeapi.co/api/v2/berry/pinap,79,0,53
+1687507629030,253,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2214,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,253,0,0
+1687507634843,35,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1934,164,1,1,https://pokeapi.co/api/v2/berry/razz,35,0,0
+1687507641066,229,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2595,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,229,0,0
+1687507646873,29,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1920,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,29,0,0
+1687507653071,218,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2458,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,218,0,0
+1687507682152,82,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,1,1,https://pokeapi.co/api/v2/berry/pinap,82,0,59
+1687507684067,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687507686128,24,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1951,164,1,1,https://pokeapi.co/api/v2/berry/razz,23,0,0
+1687507688126,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2648,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687507690130,26,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1926,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,26,0,0
+1687507692124,201,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2462,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,201,0,0
+1687507700573,73,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,1,1,https://pokeapi.co/api/v2/berry/pinap,73,0,49
+1687507702498,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2226,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687507704550,23,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1951,164,1,1,https://pokeapi.co/api/v2/berry/razz,23,0,0
+1687507706548,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2606,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687507708549,23,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1916,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,23,0,0
+1687507710550,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2471,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687507731752,96,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,1,1,https://pokeapi.co/api/v2/berry/pinap,96,0,70
+1687507731849,30,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,29,0,0
+1687507731880,23,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1955,164,1,1,https://pokeapi.co/api/v2/berry/razz,23,0,0
+1687507731904,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2606,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687507731927,23,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1926,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,22,0,0
+1687507731950,31,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2478,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,31,0,0
+1687507747336,77,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,1,1,https://pokeapi.co/api/v2/berry/pinap,77,0,49
+1687507747414,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687507747438,23,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1949,164,1,1,https://pokeapi.co/api/v2/berry/razz,23,0,0
+1687507747462,27,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2607,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,26,0,0
+1687507747490,25,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1924,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,24,0,0
+1687507747515,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2478,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,24,0,0
+1687507760666,74,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,1,1,https://pokeapi.co/api/v2/berry/pinap,74,0,50
+1687507761598,27,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2228,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,27,0,0
+1687507762628,24,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1949,164,1,1,https://pokeapi.co/api/v2/berry/razz,23,0,0
+1687507763653,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2654,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687507764629,24,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1924,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,23,0,0
+1687507765640,28,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2467,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,27,0,0
+1687507789767,86,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,1,1,https://pokeapi.co/api/v2/berry/pinap,86,0,61
+1687507790679,27,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2220,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,27,0,0
+1687507791739,26,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1953,164,1,1,https://pokeapi.co/api/v2/berry/razz,26,0,0
+1687507792739,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2644,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,26,0,0
+1687507793741,24,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1918,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,24,0,0
+1687507794743,24,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2478,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687507795741,23,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,1,1,https://pokeapi.co/api/v2/berry/pinap,22,0,0
+1687507796741,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2216,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687507797743,23,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1947,164,1,1,https://pokeapi.co/api/v2/berry/razz,23,0,0
+1687507798744,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2648,173,1,1,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687507799742,25,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1928,166,1,1,https://pokeapi.co/api/v2/berry/iapapa,25,0,0
+1687507826380,81,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,1,1,https://pokeapi.co/api/v2/berry/pinap,80,0,54
+1687507849552,85,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1932,165,1,1,https://pokeapi.co/api/v2/berry/pinap,85,0,56
+1687507881794,75,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,1,1,https://pokeapi.co/api/v2/berry/pinap,75,0,52
+1687507881869,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2226,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687507886639,74,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,1,1,https://pokeapi.co/api/v2/berry/pinap,74,0,51
+1687507886714,33,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,33,0,0
+1687507920006,89,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1918,165,3,3,https://pokeapi.co/api/v2/berry/pinap,89,0,62
+1687507920006,90,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1955,164,3,3,https://pokeapi.co/api/v2/berry/razz,89,0,61
+1687507920006,98,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1915,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,98,0,65
+1687507920097,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2611,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687507920096,26,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,26,0,0
+1687507920105,213,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2470,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,213,0,0
+1687507929941,77,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1949,164,3,3,https://pokeapi.co/api/v2/berry/razz,77,0,52
+1687507929941,80,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,80,0,53
+1687507929941,85,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1918,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,85,0,59
+1687507930019,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2660,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687507930022,25,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2230,178,2,2,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687507930027,36,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2468,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,35,0,0
+1687508390179,88,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1932,164,3,3,https://pokeapi.co/api/v2/berry/razz,88,0,64
+1687508390179,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,88,0,62
+1687508390179,91,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1917,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,91,0,64
+1687508390268,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687508390268,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2605,173,2,2,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687508390270,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2468,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,24,0,0
+1687508406771,72,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1949,164,3,3,https://pokeapi.co/api/v2/berry/razz,72,0,49
+1687508406771,72,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1932,165,3,3,https://pokeapi.co/api/v2/berry/pinap,72,0,50
+1687508406771,74,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1924,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,74,0,51
+1687508406844,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687508406844,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2615,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687508406845,24,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2472,179,1,1,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687508442794,82,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,3,3,https://pokeapi.co/api/v2/berry/pinap,82,0,55
+1687508442794,84,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1928,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,84,0,55
+1687508442794,84,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1922,164,3,3,https://pokeapi.co/api/v2/berry/razz,84,0,56
+1687508442879,32,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2605,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,32,0,0
+1687508442877,34,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2229,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,34,0,0
+1687508442879,33,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2468,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,32,0,0
+1687508466698,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,1,1,https://pokeapi.co/api/v2/berry/pinap,91,0,47
+1687508466790,46,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,46,0,0
+1687508478125,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1936,165,1,1,https://pokeapi.co/api/v2/berry/pinap,88,0,61
+1687508478215,27,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2226,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,27,0,0
+1687508486637,71,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,1,1,https://pokeapi.co/api/v2/berry/pinap,71,0,47
+1687508486708,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687508489566,92,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1932,165,1,1,https://pokeapi.co/api/v2/berry/pinap,92,0,49
+1687508489659,35,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2234,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,35,0,0
+1687508500842,78,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1916,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,78,0,56
+1687508500842,78,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,78,0,54
+1687508500842,80,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,79,0,56
+1687508500921,22,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2476,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,22,0,0
+1687508500922,21,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2603,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,21,0,0
+1687508500921,22,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2223,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687508627707,96,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,96,0,73
+1687508627707,99,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1922,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,99,0,74
+1687508627707,99,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1957,164,3,3,https://pokeapi.co/api/v2/berry/razz,99,0,74
+1687508627804,25,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2219,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,25,0,0
+1687508627807,22,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2650,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687508627807,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2474,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,22,0,0
+1687508627830,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4114,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687508627830,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4120,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687508627830,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4201,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,23,0,0
+1687509448772,93,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1924,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,93,0,69
+1687509448772,94,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1932,164,3,3,https://pokeapi.co/api/v2/berry/razz,94,0,70
+1687509448772,95,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1930,165,3,3,https://pokeapi.co/api/v2/berry/pinap,95,0,70
+1687509448866,24,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2473,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687509448867,24,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2608,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687509448867,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2227,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687509448890,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4118,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687509448892,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4116,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687509448892,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4202,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687509448917,1757,pokeapi.co/api/v2/contest-effect/cool,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,171,3,3,https://pokeapi.co/api/v2/berry-flavor/cool,1757,0,0
+1687509448916,1814,pokeapi.co/api/v2/contest-effect/beauty,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",981,173,2,2,https://pokeapi.co/api/v2/berry-flavor/beauty,1814,0,0
+1687509448914,1853,pokeapi.co/api/v2/contest-effect/cute,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",993,171,1,1,https://pokeapi.co/api/v2/berry-flavor/cute,1853,0,0
+1687510051292,85,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,85,0,61
+1687510051292,85,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1916,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,85,0,61
+1687510051292,92,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1924,165,3,3,https://pokeapi.co/api/v2/berry/pinap,92,0,64
+1687510051379,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2612,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687510051380,29,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2473,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,29,0,0
+1687510051384,25,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-3,text,true,,2225,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,25,0,0
+1687510051405,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687510051410,23,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-1,text,true,,4116,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687510051410,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-3,text,true,,4202,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687510051429,100,pokeapi.co/api/v2/contest-type/cute,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",6321,182,3,3,https://pokeapi.co/pokeapi.co/api/v2/contest-type/cute,99,0,0
+1687510051433,103,pokeapi.co/api/v2/contest-type/beauty,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",6321,184,2,2,https://pokeapi.co/pokeapi.co/api/v2/contest-type/beauty,103,0,0
+1687510051435,206,pokeapi.co/api/v2/contest-type/cool,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",6330,182,1,1,https://pokeapi.co/pokeapi.co/api/v2/contest-type/cool,206,0,0
+1687510074466,89,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1945,164,3,3,https://pokeapi.co/api/v2/berry/razz,89,0,63
+1687510074466,89,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,3,3,https://pokeapi.co/api/v2/berry/pinap,89,0,64
+1687510074466,91,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,90,0,66
+1687510074556,24,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2610,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687510074556,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2227,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687510074557,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2473,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,25,0,0
+1687510074582,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4114,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,24,0,0
+1687510074580,26,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,26,0,0
+1687510074580,27,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4200,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,26,0,0
+1687510074606,24,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687510074607,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1757,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687510074607,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1765,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,22,0,0
+1687510103622,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1938,165,3,3,https://pokeapi.co/api/v2/berry/pinap,91,0,68
+1687510103622,91,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1928,164,3,3,https://pokeapi.co/api/v2/berry/razz,91,0,69
+1687510103622,94,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1921,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,94,0,66
+1687510103714,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2223,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687510103716,27,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2471,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,27,0,0
+1687510103714,31,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2608,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,31,0,0
+1687510103738,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4204,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,23,0,0
+1687510103746,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4126,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,24,0,0
+1687510103743,31,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4116,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,30,0,0
+1687510103762,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1749,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687510103771,26,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1753,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,26,0,0
+1687510103775,25,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1761,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,25,0,0
+1687510103798,26,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1516,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,26,0,0
+1687510103786,659,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1531,171,2,2,https://pokeapi.co/api/v2/contest-effect/10,659,0,0
+1687510103801,651,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1535,171,1,1,https://pokeapi.co/api/v2/contest-effect/11,651,0,0
+1687510227644,90,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1918,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,90,0,68
+1687510227644,95,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1924,165,3,3,https://pokeapi.co/api/v2/berry/pinap,94,0,71
+1687510227644,96,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1955,164,3,3,https://pokeapi.co/api/v2/berry/razz,96,0,68
+1687510227735,21,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2475,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,21,0,0
+1687510227739,22,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-2,text,true,,2229,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687510227740,22,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2612,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,21,0,0
+1687510227757,20,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4116,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,19,0,0
+1687510227762,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-1,text,true,,4117,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,22,0,0
+1687510227762,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-2,text,true,,4204,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,22,0,0
+1687510227777,28,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1755,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,28,0,0
+1687510227785,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1757,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687510227785,22,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1749,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,22,0,0
+1687510227805,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1518,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,22,0,0
+1687510227808,22,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1542,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,22,0,0
+1687510227828,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1983,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687510227808,207,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1532,171,2,2,https://pokeapi.co/api/v2/contest-effect/11,207,0,0
+1687510227830,196,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1996,177,2,2,https://pokeapi.co/api/v2/super-contest-effect/10,196,0,0
+1687510228015,208,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2760,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/11,208,0,0
+1687510244094,75,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1949,164,3,3,https://pokeapi.co/api/v2/berry/razz,74,0,49
+1687510244095,76,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,76,0,50
+1687510244095,78,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1925,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,78,0,54
+1687510244169,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2604,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687510244171,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2225,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687510244173,27,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2473,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,27,0,0
+1687510244194,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4204,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,22,0,0
+1687510244194,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687510244201,32,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4116,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,30,0,0
+1687510244217,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1751,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687510244217,25,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1757,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,25,0,0
+1687510244234,25,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,25,0,0
+1687510244241,22,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1538,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,22,0,0
+1687510244259,25,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1526,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,25,0,0
+1687510244264,22,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1993,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,22,0,0
+1687510244284,30,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1997,177,2,2,https://pokeapi.co/api/v2/super-contest-effect/12,30,0,0
+1687510244243,202,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1542,171,1,1,https://pokeapi.co/api/v2/contest-effect/11,202,0,0
+1687510244445,208,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2766,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/11,208,0,0
+1687510263036,104,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1928,164,3,3,https://pokeapi.co/api/v2/berry/razz,104,0,79
+1687510263036,104,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,3,3,https://pokeapi.co/api/v2/berry/pinap,104,0,80
+1687510263036,114,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1918,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,113,0,80
+1687510263141,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2610,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687510263141,28,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2221,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,28,0,0
+1687510263150,22,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2471,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,22,0,0
+1687510263164,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4122,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687510263169,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4210,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687510263172,26,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4120,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,26,0,0
+1687510263188,23,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1751,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687510263194,25,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1751,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,25,0,0
+1687510263199,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1755,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687510263211,21,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1522,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,21,0,0
+1687510263233,22,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1981,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,22,0,0
+1687510263222,212,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1538,171,2,2,https://pokeapi.co/api/v2/contest-effect/11,212,0,0
+1687510263220,214,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1526,171,2,2,https://pokeapi.co/api/v2/contest-effect/10,214,0,0
+1687510263434,206,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1990,177,2,2,https://pokeapi.co/api/v2/super-contest-effect/10,205,0,0
+1687510263434,223,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2766,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/11,223,0,0
+1687510271757,77,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1938,164,3,3,https://pokeapi.co/api/v2/berry/razz,77,0,52
+1687510271757,77,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1920,165,3,3,https://pokeapi.co/api/v2/berry/pinap,77,0,53
+1687510271757,79,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1924,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,79,0,52
+1687510271836,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2604,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687510271837,22,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2471,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,21,0,0
+1687510271836,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2229,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687510271860,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4206,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,23,0,0
+1687510271859,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4118,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687510271859,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4124,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687510271884,34,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1755,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,34,0,0
+1687510271884,34,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1763,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,34,0,0
+1687510271884,34,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1755,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,34,0,0
+1687510271918,22,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1530,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,22,0,0
+1687510271918,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1538,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687510271918,22,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1520,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,22,0,0
+1687510271940,22,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,2002,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,22,0,0
+1687510271940,22,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2770,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,22,0,0
+1687510271940,25,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1991,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/12,25,0,0
+1687538139074,145,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1947,164,3,3,https://pokeapi.co/api/v2/berry/razz,144,0,116
+1687538139074,145,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1921,165,3,3,https://pokeapi.co/api/v2/berry/pinap,144,0,116
+1687538139074,145,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1917,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,144,0,116
+1687538139226,22,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-3,text,true,,2226,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687538139226,22,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2484,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,22,0,0
+1687538139226,27,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2603,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,27,0,0
+1687538139249,27,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4113,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,26,0,0
+1687538139254,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-1,text,true,,4126,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538139249,32,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-3,text,true,,4203,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,31,0,0
+1687538139276,24,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,24,0,0
+1687538139279,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687538139282,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1768,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687538139301,24,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1521,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,24,0,0
+1687538139303,24,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1540,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,24,0,0
+1687538139305,25,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1540,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,24,0,0
+1687538139326,22,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1988,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,22,0,0
+1687538139327,24,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1996,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,24,0,0
+1687538139330,29,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2776,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/11,28,0,0
+1687538159244,77,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,76,0,53
+1687538159244,77,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1921,165,3,3,https://pokeapi.co/api/v2/berry/pinap,76,0,52
+1687538159244,80,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1945,164,3,3,https://pokeapi.co/api/v2/berry/razz,79,0,54
+1687538159322,24,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,24,0,0
+1687538159322,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-3,text,true,,2222,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687538159324,24,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2605,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687538159348,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4120,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,22,0,0
+1687538159346,25,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-1,text,true,,4115,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,24,0,0
+1687538159346,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-3,text,true,,4203,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687538159371,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1764,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687538159371,22,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-1,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,22,0,0
+1687538159372,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-3,text,true,,1767,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687538159394,27,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1546,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,27,0,0
+1687538159396,25,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-3,text,true,,1540,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,25,0,0
+1687538159394,27,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-1,text,true,,1529,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,27,0,0
+1687538159421,23,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-1,text,true,,1988,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687538159421,23,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687538159421,27,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-3,text,true,,1998,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,27,0,0
+1687538159444,22,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-2,text,true,,1604,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,22,0,0
+1687538159444,23,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-1,text,true,,1613,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,22,0,0
+1687538159449,22,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1694,174,1,1,https://pokeapi.co/api/v2/location/eterna-city,22,0,0
+1687538203393,89,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1947,164,3,3,https://pokeapi.co/api/v2/berry/razz,89,0,60
+1687538203392,90,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,90,0,59
+1687538203392,90,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1917,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,90,0,59
+1687538203483,22,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687538203483,22,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2609,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687538203483,41,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2482,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,41,0,0
+1687538203506,22,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4120,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,21,0,0
+1687538203506,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4209,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,22,0,0
+1687538203525,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4117,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,24,0,0
+1687538203529,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1766,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687538203529,26,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1750,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,25,0,0
+1687538203550,25,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,25,0,0
+1687538203553,30,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1552,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,30,0,0
+1687538203576,31,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1521,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,31,0,0
+1687538203584,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687538203608,22,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-3,text,true,,1615,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,22,0,0
+1687538203608,27,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1992,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,26,0,0
+1687538203635,24,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-2,text,true,,1698,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,24,0,0
+1687538203555,233,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1520,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,233,0,0
+1687538203789,794,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1992,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,794,0,0
+1687538204583,26,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1612,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,26,0,0
+1687538203631,1849,pokeapi.co/api/v2/location/pastoria-city-area,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",993,181,3,3,https://pokeapi.co/api/v2/location/pastoria-city-area,1849,0,0
+1687538203659,1841,pokeapi.co/api/v2/location/eterna-city-area,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",983,179,2,2,https://pokeapi.co/api/v2/location/eterna-city-area,1841,0,0
+1687538204610,1757,pokeapi.co/api/v2/location/canalave-city-area,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,181,1,1,https://pokeapi.co/api/v2/location/canalave-city-area,1757,0,0
+1687538276090,82,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,82,0,58
+1687538276090,90,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,90,0,65
+1687538276090,92,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,91,0,66
+1687538276172,27,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2651,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,27,0,0
+1687538276181,22,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687538276182,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,21,0,0
+1687538276200,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,22,0,0
+1687538276204,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4201,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687538276206,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4129,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687538276223,24,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1758,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,24,0,0
+1687538276230,24,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,24,0,0
+1687538276229,25,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,25,0,0
+1687538276248,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1542,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687538276254,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1523,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,23,0,0
+1687538276254,29,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1538,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,29,0,0
+1687538276271,25,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,24,0,0
+1687538276278,28,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,28,0,0
+1687538276284,23,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,2002,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,22,0,0
+1687538276296,21,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1692,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,21,0,0
+1687538276307,23,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1611,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,23,0,0
+1687538276308,22,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1618,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,22,0,0
+1687538276318,213,pokeapi.co/api/v2/location/2,200,OK,PokeApi - run 1-3,text,true,,1678,164,3,3,https://pokeapi.co/api/v2/location/2,213,0,0
+1687538276331,203,pokeapi.co/api/v2/location/1,200,OK,PokeApi - run 1-1,text,true,,1651,164,2,2,https://pokeapi.co/api/v2/location/1,203,0,0
+1687538276331,213,pokeapi.co/api/v2/location/3,200,OK,PokeApi - run 1-2,text,true,,1596,164,1,1,https://pokeapi.co/api/v2/location/3,213,0,0
+1687538301101,79,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,78,0,47
+1687538301101,82,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1925,164,3,3,https://pokeapi.co/api/v2/berry/razz,81,0,57
+1687538301101,82,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1925,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,82,0,57
+1687538301180,26,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2230,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,25,0,0
+1687538301183,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2472,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,25,0,0
+1687538301183,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2609,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687538301209,23,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,22,0,0
+1687538301206,26,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4209,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,25,0,0
+1687538301209,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538301232,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1756,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687538301232,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687538301233,25,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,25,0,0
+1687538301255,23,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1542,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687538301255,26,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1538,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,26,0,0
+1687538301258,36,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1525,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,35,0,0
+1687538301278,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2772,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,24,0,0
+1687538301282,35,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1998,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,35,0,0
+1687538301294,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1990,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,24,0,0
+1687538301303,22,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1690,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,22,0,0
+1687538301317,24,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1608,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,24,0,0
+1687538301318,23,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1613,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,23,0,0
+1687538301342,25,pokeapi.co/api/v2/location/1,200,OK,PokeApi - run 1-1,text,true,,1660,164,3,3,https://pokeapi.co/api/v2/location/1,25,0,0
+1687538301368,24,pokeapi.co/api/v2/location/1,200,OK,PokeApi - run 1-1,text,true,,1660,164,3,3,https://pokeapi.co/api/v2/location/1,24,0,0
+1687538301325,215,pokeapi.co/api/v2/location/2,200,OK,PokeApi - run 1-3,text,true,,1690,164,2,2,https://pokeapi.co/api/v2/location/2,214,0,0
+1687538301342,210,pokeapi.co/api/v2/location/3,200,OK,PokeApi - run 1-2,text,true,,1602,164,2,2,https://pokeapi.co/api/v2/location/3,210,0,0
+1687538301540,23,pokeapi.co/api/v2/location/2,200,OK,PokeApi - run 1-3,text,true,,1688,164,2,2,https://pokeapi.co/api/v2/location/2,23,0,0
+1687538301553,27,pokeapi.co/api/v2/location/3,200,OK,PokeApi - run 1-2,text,true,,1610,164,1,1,https://pokeapi.co/api/v2/location/3,27,0,0
+1687538349578,96,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1921,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,96,0,72
+1687538349578,98,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1921,164,3,3,https://pokeapi.co/api/v2/berry/razz,98,0,72
+1687538349578,105,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1920,165,3,3,https://pokeapi.co/api/v2/berry/pinap,105,0,71
+1687538349675,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2478,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,25,0,0
+1687538349677,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2603,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687538349683,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2228,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687538349702,23,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4127,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,22,0,0
+1687538349700,29,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,28,0,0
+1687538349707,22,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4209,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,21,0,0
+1687538349725,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1764,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687538349729,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1757,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687538349729,40,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1760,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,40,0,0
+1687538349748,24,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1558,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,24,0,0
+1687538349752,23,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1534,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,23,0,0
+1687538349769,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1527,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,23,0,0
+1687538349776,20,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,2002,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,20,0,0
+1687538349773,23,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2772,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687538349793,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1988,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,24,0,0
+1687538349797,23,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-2,text,true,,1694,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,23,0,0
+1687538349797,23,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1614,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,23,0,0
+1687538349817,23,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-3,text,true,,1621,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,23,0,0
+1687538349821,227,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-1,text,true,,15978,169,3,3,https://pokeapi.co/api/v2/location-area/1,226,0,0
+1687538349821,235,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-2,text,true,,14518,169,3,3,https://pokeapi.co/api/v2/location-area/2,232,0,0
+1687538349840,697,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-3,text,true,,15651,169,3,3,https://pokeapi.co/api/v2/location-area/3,695,0,0
+1687538350049,710,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-1,text,true,,12566,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,708,0,0
+1687538350056,802,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-2,text,true,,20825,169,2,2,https://pokeapi.co/api/v2/pal-park-area/2,799,0,0
+1687538350537,776,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-3,text,true,,18218,169,1,1,https://pokeapi.co/api/v2/pal-park-area/3,774,0,0
+1687538425492,89,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,89,0,63
+1687538425492,91,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1932,165,3,3,https://pokeapi.co/api/v2/berry/pinap,91,0,67
+1687538425492,92,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1925,164,3,3,https://pokeapi.co/api/v2/berry/razz,92,0,65
+1687538425582,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687538425584,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2609,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687538425584,43,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2220,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,43,0,0
+1687538425606,23,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687538425611,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538425628,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4209,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,22,0,0
+1687538425630,23,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1758,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687538425636,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1758,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687538425652,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1755,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,22,0,0
+1687538425654,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1527,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,23,0,0
+1687538425659,24,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1540,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,23,0,0
+1687538425676,23,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1532,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,22,0,0
+1687538425678,23,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687538425684,22,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2778,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,22,0,0
+1687538425699,23,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1998,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,22,0,0
+1687538425702,22,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1613,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,22,0,0
+1687538425706,22,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1690,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,22,0,0
+1687538425722,23,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1612,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,23,0,0
+1687538425729,23,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-3,text,true,,14510,169,3,3,https://pokeapi.co/api/v2/location-area/2,21,0,0
+1687538425725,32,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-2,text,true,,15661,169,3,3,https://pokeapi.co/api/v2/location-area/3,31,0,0
+1687538425745,24,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-1,text,true,,15989,169,3,3,https://pokeapi.co/api/v2/location-area/1,22,0,0
+1687538425752,206,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-3,text,true,,7184,162,3,3,https://pokeapi.co/api/v2/region/2,205,0,0
+1687538425758,205,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-2,text,true,,10197,162,3,3,https://pokeapi.co/api/v2/region/3,203,0,0
+1687538425770,203,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-1,text,true,,9455,162,3,3,https://pokeapi.co/api/v2/region/1,203,0,0
+1687538425958,25,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-3,text,true,,20823,169,3,3,https://pokeapi.co/api/v2/pal-park-area/2,22,0,0
+1687538425963,28,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-2,text,true,,18218,169,2,2,https://pokeapi.co/api/v2/pal-park-area/3,27,0,0
+1687538425974,22,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-1,text,true,,12578,169,1,1,https://pokeapi.co/api/v2/pal-park-area/1,21,0,0
+1687538605233,97,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1929,164,3,3,https://pokeapi.co/api/v2/berry/razz,97,0,73
+1687538605233,97,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1923,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,97,0,72
+1687538605233,103,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1920,165,3,3,https://pokeapi.co/api/v2/berry/pinap,103,0,73
+1687538605331,24,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2468,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687538605331,24,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2605,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687538605337,25,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,24,0,0
+1687538605355,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538605355,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687538605362,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4199,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687538605380,24,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1764,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687538605380,27,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1760,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,27,0,0
+1687538605387,24,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,24,0,0
+1687538605405,27,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1550,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,27,0,0
+1687538605408,25,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1527,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,24,0,0
+1687538605412,24,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1546,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,23,0,0
+1687538605433,27,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1990,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,27,0,0
+1687538605433,35,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,34,0,0
+1687538605436,45,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1998,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,45,0,0
+1687538605461,22,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-3,text,true,,1613,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,22,0,0
+1687538605468,24,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-2,text,true,,1620,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,24,0,0
+1687538605482,22,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1614,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,22,0,0
+1687538605492,24,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-2,text,true,,15982,169,3,3,https://pokeapi.co/api/v2/location-area/1,23,0,0
+1687538605517,24,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-2,text,true,,9463,162,3,3,https://pokeapi.co/api/v2/region/1,22,0,0
+1687538605541,25,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-2,text,true,,12571,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,23,0,0
+1687538605483,208,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-3,text,true,,15654,169,3,3,https://pokeapi.co/api/v2/location-area/3,206,0,0
+1687538605505,213,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-1,text,true,,15980,169,3,3,https://pokeapi.co/api/v2/location-area/1,211,0,0
+1687538605691,213,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-3,text,true,,10193,162,3,3,https://pokeapi.co/api/v2/region/3,212,0,0
+1687538605719,207,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-1,text,true,,9453,162,3,3,https://pokeapi.co/api/v2/region/1,205,0,0
+1687538605905,214,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-3,text,true,,18211,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,212,0,0
+1687538605926,228,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-1,text,true,,12573,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,227,0,0
+1687538605566,1809,pokeapi.co/api/v2/machine/eterna-city,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",981,173,3,3,https://pokeapi.co/api/v2/machine/eterna-city,1809,0,0
+1687538606155,1270,pokeapi.co/api/v2/machine/eterna-city,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",980,173,2,2,https://pokeapi.co/api/v2/machine/eterna-city,1270,0,0
+1687538606119,1855,pokeapi.co/api/v2/machine/pastoria-city,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",987,175,1,1,https://pokeapi.co/api/v2/machine/pastoria-city,1855,0,0
+1687538620658,76,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,76,0,50
+1687538620658,84,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1917,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,83,0,52
+1687538620735,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2230,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687538620742,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687538620758,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4201,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,23,0,0
+1687538620766,22,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4117,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,21,0,0
+1687538620782,26,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1763,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,26,0,0
+1687538620788,25,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1756,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,25,0,0
+1687538620808,23,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1536,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,23,0,0
+1687538620813,25,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1544,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,24,0,0
+1687538620832,22,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,2002,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,22,0,0
+1687538620838,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2782,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,24,0,0
+1687538620658,260,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1937,164,3,3,https://pokeapi.co/api/v2/berry/razz,260,0,52
+1687538620918,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2657,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,26,0,0
+1687538620944,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538620968,22,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,22,0,0
+1687538620990,22,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1529,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,22,0,0
+1687538621012,22,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,22,0,0
+1687538620855,212,pokeapi.co/api/v2/location/10,200,OK,PokeApi - run 1-1,text,true,,2615,165,3,3,https://pokeapi.co/api/v2/location/10,212,0,0
+1687538621067,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538621068,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538621068,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538620862,215,pokeapi.co/api/v2/location/12,200,OK,PokeApi - run 1-3,text,true,,3032,165,3,3,https://pokeapi.co/api/v2/location/12,214,0,0
+1687538621077,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538621078,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538621078,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538621079,22,pokeapi.co/api/v2/machine/eterna-city,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",993,173,3,3,https://pokeapi.co/api/v2/machine/eterna-city,22,0,0
+1687538621034,208,pokeapi.co/api/v2/location/11,200,OK,PokeApi - run 1-2,text,true,,2014,165,2,2,https://pokeapi.co/api/v2/location/11,208,0,0
+1687538621242,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,2,2,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538621243,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,2,2,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538621243,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,2,2,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538621243,217,pokeapi.co/api/v2/machine/pastoria-city,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",980,175,2,2,https://pokeapi.co/api/v2/machine/pastoria-city,217,0,0
+1687538621068,1787,pokeapi.co/api/v2/machine/canalave-city,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",991,175,1,1,https://pokeapi.co/api/v2/machine/canalave-city,1787,0,0
+1687538634421,75,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1928,165,3,3,https://pokeapi.co/api/v2/berry/pinap,75,0,50
+1687538634421,76,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1918,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,76,0,53
+1687538634421,93,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1942,164,3,3,https://pokeapi.co/api/v2/berry/razz,93,0,52
+1687538634498,22,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,22,0,0
+1687538634497,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2228,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687538634515,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2647,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687538634520,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687538634520,26,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4205,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,25,0,0
+1687538634542,25,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,25,0,0
+1687538634545,23,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687538634547,29,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,28,0,0
+1687538634568,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-2,text,true,,1758,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687538634576,24,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1534,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,24,0,0
+1687538634590,24,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,1540,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,23,0,0
+1687538634601,21,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1990,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,21,0,0
+1687538634614,23,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-2,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687538634637,24,pokeapi.co/api/v2/location/11,200,OK,PokeApi - run 1-2,text,true,,2019,165,3,3,https://pokeapi.co/api/v2/location/11,24,0,0
+1687538634661,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538634662,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538634662,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538634662,23,pokeapi.co/api/v2/machine/eterna-city,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,173,3,3,https://pokeapi.co/api/v2/machine/eterna-city,22,0,0
+1687538634568,209,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1489,171,2,2,https://pokeapi.co/api/v2/contest-effect/12,209,0,0
+1687538634622,218,pokeapi.co/api/v2/location/10,200,OK,PokeApi - run 1-1,text,true,,2611,165,2,2,https://pokeapi.co/api/v2/location/10,218,0,0
+1687538634840,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,2,2,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538634841,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,2,2,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538634841,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,2,2,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538634842,219,pokeapi.co/api/v2/machine/canalave-city,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",984,175,2,2,https://pokeapi.co/api/v2/machine/canalave-city,219,0,0
+1687538634778,652,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1981,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/12,652,0,0
+1687538635431,581,pokeapi.co/api/v2/location/12,200,OK,PokeApi - run 1-3,text,true,,3034,165,1,1,https://pokeapi.co/api/v2/location/12,580,0,0
+1687538636012,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,1,1,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538636013,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,1,1,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538636014,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,1,1,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538636014,204,pokeapi.co/api/v2/machine/pastoria-city,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",984,175,1,1,https://pokeapi.co/api/v2/machine/pastoria-city,204,0,0
+1687538664021,84,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1931,164,3,3,https://pokeapi.co/api/v2/berry/razz,84,0,59
+1687538664021,87,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,87,0,59
+1687538664106,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2615,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687538664109,28,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2478,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,27,0,0
+1687538664129,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-1,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538664137,29,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,29,0,0
+1687538664154,25,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-1,text,true,,1764,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,25,0,0
+1687538664166,23,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687538664180,27,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-1,text,true,,1548,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,27,0,0
+1687538664190,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1525,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,23,0,0
+1687538664208,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-1,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,24,0,0
+1687538664214,22,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1988,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,22,0,0
+1687538664232,26,pokeapi.co/api/v2/location/10,200,OK,PokeApi - run 1-1,text,true,,2616,165,3,3,https://pokeapi.co/api/v2/location/10,25,0,0
+1687538664258,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538664259,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538664260,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538664236,35,pokeapi.co/api/v2/location/12,200,OK,PokeApi - run 1-3,text,true,,3037,165,3,3,https://pokeapi.co/api/v2/location/12,35,0,0
+1687538664272,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538664273,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538664274,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538664260,27,pokeapi.co/api/v2/machine/eterna-city,404,Not Found,PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",989,173,3,3,https://pokeapi.co/api/v2/machine/eterna-city,27,0,0
+1687538664275,28,pokeapi.co/api/v2/machine/pastoria-city,404,Not Found,PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",993,175,2,2,https://pokeapi.co/api/v2/machine/pastoria-city,28,0,0
+1687538664021,803,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1917,165,1,1,https://pokeapi.co/api/v2/berry/pinap,803,0,59
+1687538664825,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-2,text,true,,2234,178,1,1,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687538664849,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-2,text,true,,4207,170,1,1,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687538664874,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-2,text,true,,1754,171,1,1,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687538664897,25,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,1534,171,1,1,https://pokeapi.co/api/v2/contest-effect/10,25,0,0
+1687538664923,26,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,2000,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/10,26,0,0
+1687538664950,195,pokeapi.co/api/v2/location/11,200,OK,PokeApi - run 1-2,text,true,,2012,165,1,1,https://pokeapi.co/api/v2/location/11,195,0,0
+1687538665145,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,1,1,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538665146,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,1,1,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538665146,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,1,1,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538665146,205,pokeapi.co/api/v2/machine/canalave-city,404,Not Found,PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",980,175,1,1,https://pokeapi.co/api/v2/machine/canalave-city,205,0,0
+1687538672905,75,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1922,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,74,0,49
+1687538672905,78,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1930,165,3,3,https://pokeapi.co/api/v2/berry/pinap,77,0,51
+1687538672981,24,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2468,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687538672983,26,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,26,0,0
+1687538673005,26,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,25,0,0
+1687538673010,31,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4199,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,31,0,0
+1687538673032,26,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,26,0,0
+1687538673042,24,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1749,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,24,0,0
+1687538673058,26,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1529,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,25,0,0
+1687538673084,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1990,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687538672905,271,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1943,164,3,3,https://pokeapi.co/api/v2/berry/razz,271,0,48
+1687538673177,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2611,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687538673200,25,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4124,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,25,0,0
+1687538673226,30,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1758,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,30,0,0
+1687538673257,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1550,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687538673066,221,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1532,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,221,0,0
+1687538673280,23,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,22,0,0
+1687538673108,211,pokeapi.co/api/v2/location/12,200,OK,PokeApi - run 1-2,text,true,,3030,165,3,3,https://pokeapi.co/api/v2/location/12,211,0,0
+1687538673319,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538673319,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538673320,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538673303,20,pokeapi.co/api/v2/location/11,200,OK,PokeApi - run 1-3,text,true,,2018,165,2,2,https://pokeapi.co/api/v2/location/11,18,0,0
+1687538673323,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,2,2,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538673324,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,2,2,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538673324,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,2,2,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538673288,208,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1980,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/10,208,0,0
+1687538673496,209,pokeapi.co/api/v2/location/10,200,OK,PokeApi - run 1-1,text,true,,2603,165,1,1,https://pokeapi.co/api/v2/location/10,209,0,0
+1687538673706,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,1,1,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538673707,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,1,1,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538673707,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,1,1,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538709106,90,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,90,0,60
+1687538709106,92,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1942,164,3,3,https://pokeapi.co/api/v2/berry/razz,92,0,68
+1687538709106,92,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1922,165,3,3,https://pokeapi.co/api/v2/berry/pinap,92,0,69
+1687538709199,22,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2218,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,21,0,0
+1687538709199,22,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2609,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,21,0,0
+1687538709196,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2474,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,24,0,0
+1687538709221,23,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4115,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,22,0,0
+1687538709221,23,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4205,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,22,0,0
+1687538709221,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4118,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,22,0,0
+1687538709245,22,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,22,0,0
+1687538709245,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1760,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687538709245,26,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,26,0,0
+1687538709267,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1544,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687538709267,22,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1532,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,22,0,0
+1687538709271,24,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1519,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,24,0,0
+1687538709290,24,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1996,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,23,0,0
+1687538709290,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2770,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687538709296,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,24,0,0
+1687538709314,23,pokeapi.co/api/v2/location/10,200,OK,PokeApi - run 1-1,text,true,,2612,165,3,3,https://pokeapi.co/api/v2/location/10,23,0,0
+1687538709337,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538709338,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538709338,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538709314,29,pokeapi.co/api/v2/location/11,200,OK,PokeApi - run 1-3,text,true,,2023,165,2,2,https://pokeapi.co/api/v2/location/11,29,0,0
+1687538709343,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,2,2,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538709344,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,2,2,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538709345,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,2,2,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538709320,207,pokeapi.co/api/v2/location/12,200,OK,PokeApi - run 1-2,text,true,,3030,165,1,1,https://pokeapi.co/api/v2/location/12,207,0,0
+1687538709527,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1143,0,1,1,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538709528,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1135,0,1,1,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538709528,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1136,0,1,1,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538770357,83,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1924,165,3,3,https://pokeapi.co/api/v2/berry/pinap,83,0,59
+1687538770357,85,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,85,0,60
+1687538770357,89,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1918,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,89,0,64
+1687538770440,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2222,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,22,0,0
+1687538770443,29,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2609,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,29,0,0
+1687538770446,28,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2476,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,28,0,0
+1687538770463,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4203,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687538770475,23,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4129,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687538770472,28,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4118,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,28,0,0
+1687538770488,25,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,25,0,0
+1687538770499,24,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687538770501,33,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1756,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,33,0,0
+1687538770523,24,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1531,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,24,0,0
+1687538770535,23,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1546,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,23,0,0
+1687538770548,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,24,0,0
+1687538770514,219,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1522,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,219,0,0
+1687538770559,219,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2762,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,218,0,0
+1687538770573,214,pokeapi.co/api/v2/location/11,200,OK,PokeApi - run 1-2,text,true,,2004,165,3,3,https://pokeapi.co/api/v2/location/11,214,0,0
+1687538770787,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-2,text,false,,1143,0,3,3,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538770787,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-2,text,false,,1135,0,3,3,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538770788,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-2,text,false,,1136,0,3,3,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538770778,24,pokeapi.co/api/v2/location/12,200,OK,PokeApi - run 1-3,text,true,,3039,165,2,2,https://pokeapi.co/api/v2/location/12,24,0,0
+1687538770802,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-3,text,false,,1143,0,2,2,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538770803,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-3,text,false,,1135,0,2,2,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538770803,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-3,text,false,,1136,0,2,2,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538770734,204,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1986,177,1,1,https://pokeapi.co/api/v2/super-contest-effect/10,204,0,0
+1687538770939,200,pokeapi.co/api/v2/location/10,200,OK,PokeApi - run 1-1,text,true,,2611,165,1,1,https://pokeapi.co/api/v2/location/10,200,0,0
+1687538771140,0,pokeapi.co/api/v2/location-area/${locationAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/location-area/${locationAreas},PokeApi - run 1-1,text,false,,1143,0,1,1,https://pokeapi.co/api/v2/location-area/${locationAreas},0,0,0
+1687538771140,0,pokeapi.co/api/v2/region/${palParkAreas},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 34: https://pokeapi.co/api/v2/region/${palParkAreas},PokeApi - run 1-1,text,false,,1135,0,1,1,https://pokeapi.co/api/v2/region/${palParkAreas},0,0,0
+1687538771140,0,pokeapi.co/api/v2/pal-park-area/${region},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 41: https://pokeapi.co/api/v2/pal-park-area/${region},PokeApi - run 1-1,text,false,,1136,0,1,1,https://pokeapi.co/api/v2/pal-park-area/${region},0,0,0
+1687538851275,98,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-1,text,true,,1923,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,98,0,73
+1687538851275,98,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1926,165,3,3,https://pokeapi.co/api/v2/berry/pinap,98,0,73
+1687538851275,98,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1955,164,3,3,https://pokeapi.co/api/v2/berry/razz,98,0,73
+1687538851374,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-1,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687538851374,23,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2657,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,23,0,0
+1687538851374,30,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-2,text,true,,2218,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,29,0,0
+1687538851398,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-1,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687538851398,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4115,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,23,0,0
+1687538851423,23,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-1,text,true,,1764,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687538851423,25,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1758,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,25,0,0
+1687538851404,55,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-2,text,true,,4207,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,54,0,0
+1687538851447,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-1,text,true,,1521,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,23,0,0
+1687538851449,27,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1542,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,27,0,0
+1687538851459,25,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-2,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,24,0,0
+1687538851470,23,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-1,text,true,,1984,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687538851477,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2774,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687538851484,26,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,1540,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,26,0,0
+1687538851494,31,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-1,text,true,,1617,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,31,0,0
+1687538851502,23,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1690,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,23,0,0
+1687538851510,23,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,2000,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,22,0,0
+1687538851526,28,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-1,text,true,,15662,169,3,3,https://pokeapi.co/api/v2/location-area/3,26,0,0
+1687538851533,23,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-2,text,true,,1614,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,23,0,0
+1687538851554,25,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-1,text,true,,10201,162,3,3,https://pokeapi.co/api/v2/region/3,24,0,0
+1687538851580,24,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-1,text,true,,18225,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,23,0,0
+1687538851526,205,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-3,text,true,,14503,169,3,3,https://pokeapi.co/api/v2/location-area/2,203,0,0
+1687538851556,210,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-2,text,true,,16035,169,3,3,https://pokeapi.co/api/v2/location-area/1,208,0,0
+1687538851605,213,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-1,text,true,,1386,164,3,3,https://pokeapi.co/api/v2/machine/12,213,0,0
+1687538851731,227,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-3,text,true,,7178,162,2,2,https://pokeapi.co/api/v2/region/2,226,0,0
+1687538851766,215,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-2,text,true,,9449,162,2,2,https://pokeapi.co/api/v2/region/1,214,0,0
+1687538851958,210,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-3,text,true,,20814,169,2,2,https://pokeapi.co/api/v2/pal-park-area/2,208,0,0
+1687538851982,222,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-2,text,true,,12571,169,2,2,https://pokeapi.co/api/v2/pal-park-area/1,221,0,0
+1687538852169,656,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-3,text,true,,1344,164,2,2,https://pokeapi.co/api/v2/machine/11,656,0,0
+1687538852205,761,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-2,text,true,,1333,164,1,1,https://pokeapi.co/api/v2/machine/10,761,0,0
+1687539103669,117,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,117,0,85
+1687539103669,122,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1931,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,122,0,91
+1687539103668,123,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1924,165,3,3,https://pokeapi.co/api/v2/berry/pinap,123,0,86
+1687539103792,29,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-2,text,true,,2230,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,29,0,0
+1687539103792,29,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,29,0,0
+1687539103786,35,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2645,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,35,0,0
+1687539103821,35,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-2,text,true,,4197,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,34,0,0
+1687539103821,36,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-1,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,35,0,0
+1687539103821,36,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4123,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,35,0,0
+1687539103857,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1764,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687539103856,24,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-2,text,true,,1748,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,24,0,0
+1687539103857,27,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-1,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,27,0,0
+1687539103881,26,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1544,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,26,0,0
+1687539103881,26,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,1534,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,26,0,0
+1687539103885,35,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-1,text,true,,1523,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,35,0,0
+1687539103920,26,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-1,text,true,,1982,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,26,0,0
+1687539103907,39,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,1998,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,39,0,0
+1687539103907,39,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2774,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,39,0,0
+1687539103946,24,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-2,text,true,,1618,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,24,0,0
+1687539103947,23,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1698,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,23,0,0
+1687539103946,26,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-1,text,true,,1611,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,26,0,0
+1687539103970,26,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-3,text,true,,14511,169,3,3,https://pokeapi.co/api/v2/location-area/2,21,0,0
+1687539103970,30,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-2,text,true,,15982,169,3,3,https://pokeapi.co/api/v2/location-area/1,24,0,0
+1687539103972,35,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-1,text,true,,15658,169,3,3,https://pokeapi.co/api/v2/location-area/3,34,0,0
+1687539103996,37,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-3,text,true,,7186,162,3,3,https://pokeapi.co/api/v2/region/2,36,0,0
+1687539104000,33,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-2,text,true,,9461,162,3,3,https://pokeapi.co/api/v2/region/1,32,0,0
+1687539104008,28,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-1,text,true,,10211,162,3,3,https://pokeapi.co/api/v2/region/3,26,0,0
+1687539104034,24,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-2,text,true,,12573,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,23,0,0
+1687539104033,31,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-3,text,true,,20826,169,3,3,https://pokeapi.co/api/v2/pal-park-area/2,29,0,0
+1687539104036,32,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-1,text,true,,18219,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,31,0,0
+1687539104065,22,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-3,text,true,,1345,164,3,3,https://pokeapi.co/api/v2/machine/11,22,0,0
+1687539104059,214,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-2,text,true,,1324,164,3,3,https://pokeapi.co/api/v2/machine/10,214,0,0
+1687539104068,231,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-1,text,true,,1387,164,3,3,https://pokeapi.co/api/v2/machine/12,231,0,0
+1687539104274,224,pokeapi.co/api/v2/language/1,200,OK,PokeApi - run 1-2,text,true,,1786,164,3,3,https://pokeapi.co/api/v2/language/1,224,0,0
+1687539104087,701,pokeapi.co/api/v2/language/3,200,OK,PokeApi - run 1-3,text,true,,1725,164,2,2,https://pokeapi.co/api/v2/language/3,701,0,0
+1687539104299,654,pokeapi.co/api/v2/language/2,200,OK,PokeApi - run 1-1,text,true,,1656,164,1,1,https://pokeapi.co/api/v2/language/2,653,0,0
+1687539359119,100,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1921,165,3,3,https://pokeapi.co/api/v2/berry/pinap,100,0,77
+1687539359119,103,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1920,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,103,0,77
+1687539359119,110,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1945,164,3,3,https://pokeapi.co/api/v2/berry/razz,110,0,75
+1687539359220,23,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2230,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687539359229,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2647,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687539359223,34,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2472,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,34,0,0
+1687539359244,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4199,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,25,0,0
+1687539359255,25,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4117,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,24,0,0
+1687539359257,31,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4117,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,30,0,0
+1687539359270,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687539359280,26,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1760,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,26,0,0
+1687539359288,24,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1768,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,24,0,0
+1687539359294,23,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1537,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,23,0,0
+1687539359307,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1554,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,21,0,0
+1687539359312,23,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1492,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,23,0,0
+1687539359317,24,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,2001,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,24,0,0
+1687539359335,23,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1984,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687539359329,29,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2772,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,29,0,0
+1687539359342,22,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1610,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,22,0,0
+1687539359359,24,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1694,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,24,0,0
+1687539359365,28,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-1,text,true,,15992,169,3,3,https://pokeapi.co/api/v2/location-area/1,26,0,0
+1687539359384,28,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-3,text,true,,14517,169,3,3,https://pokeapi.co/api/v2/location-area/2,26,0,0
+1687539359393,24,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-1,text,true,,9461,162,3,3,https://pokeapi.co/api/v2/region/1,23,0,0
+1687539359412,25,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-3,text,true,,7192,162,3,3,https://pokeapi.co/api/v2/region/2,24,0,0
+1687539359417,24,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-1,text,true,,12571,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,23,0,0
+1687539359441,23,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-1,text,true,,1340,164,3,3,https://pokeapi.co/api/v2/machine/10,23,0,0
+1687539359437,30,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-3,text,true,,20824,169,3,3,https://pokeapi.co/api/v2/pal-park-area/2,27,0,0
+1687539359464,25,pokeapi.co/api/v2/language/1,200,OK,PokeApi - run 1-1,text,true,,1790,164,3,3,https://pokeapi.co/api/v2/language/1,25,0,0
+1687539359467,22,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-3,text,true,,1351,164,3,3,https://pokeapi.co/api/v2/machine/11,22,0,0
+1687539359490,24,pokeapi.co/api/v2/language/3,200,OK,PokeApi - run 1-3,text,true,,1734,164,3,3,https://pokeapi.co/api/v2/language/3,24,0,0
+1687539359490,26,pokeapi.co/api/v2/evolution-chain/3,200,OK,PokeApi - run 1-1,text,true,,2399,171,3,3,https://pokeapi.co/api/v2/evolution-chain/3,26,0,0
+1687539359514,26,pokeapi.co/api/v2/evolution-chain/5,200,OK,PokeApi - run 1-3,text,true,,2442,171,3,3,https://pokeapi.co/api/v2/evolution-chain/5,26,0,0
+1687539359358,786,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1605,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,785,0,0
+1687539359516,659,pokeapi.co/api/v2/evolution-trigger/4,200,OK,PokeApi - run 1-1,text,true,,1538,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/4,659,0,0
+1687539359541,672,pokeapi.co/api/v2/evolution-trigger/6,200,OK,PokeApi - run 1-3,text,true,,1346,173,2,2,https://pokeapi.co/api/v2/evolution-trigger/6,672,0,0
+1687539360144,212,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-2,text,true,,15656,169,1,1,https://pokeapi.co/api/v2/location-area/3,211,0,0
+1687539360357,216,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-2,text,true,,10193,162,1,1,https://pokeapi.co/api/v2/region/3,215,0,0
+1687539360574,215,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-2,text,true,,18207,169,1,1,https://pokeapi.co/api/v2/pal-park-area/3,213,0,0
+1687539360790,213,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-2,text,true,,1389,164,1,1,https://pokeapi.co/api/v2/machine/12,213,0,0
+1687539361003,221,pokeapi.co/api/v2/language/2,200,OK,PokeApi - run 1-2,text,true,,1656,164,1,1,https://pokeapi.co/api/v2/language/2,221,0,0
+1687539361224,221,pokeapi.co/api/v2/evolution-chain/7,200,OK,PokeApi - run 1-2,text,true,,2304,171,1,1,https://pokeapi.co/api/v2/evolution-chain/7,221,0,0
+1687539361445,680,pokeapi.co/api/v2/evolution-trigger/8,200,OK,PokeApi - run 1-2,text,true,,1351,173,1,1,https://pokeapi.co/api/v2/evolution-trigger/8,680,0,0
+1687539612896,90,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1951,164,3,3,https://pokeapi.co/api/v2/berry/razz,90,0,63
+1687539612896,90,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-3,text,true,,1923,165,3,3,https://pokeapi.co/api/v2/berry/pinap,90,0,63
+1687539612897,92,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,92,0,65
+1687539612990,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2472,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687539612987,28,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-3,text,true,,2226,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,28,0,0
+1687539612987,28,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2611,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,28,0,0
+1687539613016,22,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-1,text,true,,4120,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,22,0,0
+1687539613013,25,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,25,0,0
+1687539613016,22,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-3,text,true,,4203,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,22,0,0
+1687539613039,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-1,text,true,,1760,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687539613039,25,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,25,0,0
+1687539613039,26,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-3,text,true,,1754,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,26,0,0
+1687539613061,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-1,text,true,,1542,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687539613064,25,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1525,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,25,0,0
+1687539613066,23,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-3,text,true,,1533,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,23,0,0
+1687539613084,23,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-1,text,true,,2778,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687539613089,24,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-3,text,true,,2003,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,23,0,0
+1687539613089,24,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1990,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,23,0,0
+1687539613107,23,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-1,text,true,,1686,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,22,0,0
+1687539613113,20,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-3,text,true,,1606,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,20,0,0
+1687539613113,23,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1611,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,23,0,0
+1687539613133,24,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-3,text,true,,15981,169,3,3,https://pokeapi.co/api/v2/location-area/1,22,0,0
+1687539613136,24,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-2,text,true,,15665,169,3,3,https://pokeapi.co/api/v2/location-area/3,22,0,0
+1687539613157,27,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-3,text,true,,9464,162,3,3,https://pokeapi.co/api/v2/region/1,26,0,0
+1687539613161,28,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-2,text,true,,10222,162,3,3,https://pokeapi.co/api/v2/region/3,27,0,0
+1687539613184,24,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-3,text,true,,12570,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,23,0,0
+1687539613190,26,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-2,text,true,,18222,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,24,0,0
+1687539613209,24,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-3,text,true,,1340,164,3,3,https://pokeapi.co/api/v2/machine/10,24,0,0
+1687539613217,23,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-2,text,true,,1393,164,3,3,https://pokeapi.co/api/v2/machine/12,23,0,0
+1687539613233,22,pokeapi.co/api/v2/language/1,200,OK,PokeApi - run 1-3,text,true,,1788,164,3,3,https://pokeapi.co/api/v2/language/1,22,0,0
+1687539613241,24,pokeapi.co/api/v2/language/3,200,OK,PokeApi - run 1-2,text,true,,1734,164,3,3,https://pokeapi.co/api/v2/language/3,24,0,0
+1687539613256,26,pokeapi.co/api/v2/evolution-chain/3,200,OK,PokeApi - run 1-3,text,true,,2411,171,3,3,https://pokeapi.co/api/v2/evolution-chain/3,26,0,0
+1687539613283,24,pokeapi.co/api/v2/evolution-trigger/4,200,OK,PokeApi - run 1-3,text,true,,1543,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/4,24,0,0
+1687539613308,0,pokeapi.co/api/v2/encounter-method/${encounterMethods},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 44: https://pokeapi.co/api/v2/encounter-method/${encounterMethods},PokeApi - run 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1149,0,3,3,https://pokeapi.co/api/v2/encounter-method/${encounterMethods},0,0,0
+1687539613130,194,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-1,text,true,,14505,169,2,2,https://pokeapi.co/api/v2/location-area/2,191,0,0
+1687539613325,218,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-1,text,true,,7184,162,2,2,https://pokeapi.co/api/v2/region/2,217,0,0
+1687539613544,214,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-1,text,true,,20808,169,2,2,https://pokeapi.co/api/v2/pal-park-area/2,211,0,0
+1687539613266,556,pokeapi.co/api/v2/evolution-chain/7,200,OK,PokeApi - run 1-2,text,true,,2298,171,2,2,https://pokeapi.co/api/v2/evolution-chain/7,556,0,0
+1687539613758,196,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-1,text,true,,1337,164,2,2,https://pokeapi.co/api/v2/machine/11,195,0,0
+1687539613823,212,pokeapi.co/api/v2/evolution-trigger/8,200,OK,PokeApi - run 1-2,text,true,,1348,173,2,2,https://pokeapi.co/api/v2/evolution-trigger/8,212,0,0
+1687539614035,0,pokeapi.co/api/v2/encounter-method/${encounterMethods},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 44: https://pokeapi.co/api/v2/encounter-method/${encounterMethods},PokeApi - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1149,0,2,2,https://pokeapi.co/api/v2/encounter-method/${encounterMethods},0,0,0
+1687539613956,211,pokeapi.co/api/v2/language/2,200,OK,PokeApi - run 1-1,text,true,,1650,164,1,1,https://pokeapi.co/api/v2/language/2,211,0,0
+1687539614168,26,pokeapi.co/api/v2/evolution-chain/5,200,OK,PokeApi - run 1-1,text,true,,2437,171,1,1,https://pokeapi.co/api/v2/evolution-chain/5,26,0,0
+1687539614194,204,pokeapi.co/api/v2/evolution-trigger/6,200,OK,PokeApi - run 1-1,text,true,,1343,173,1,1,https://pokeapi.co/api/v2/evolution-trigger/6,204,0,0
+1687539614399,0,pokeapi.co/api/v2/encounter-method/${encounterMethods},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 44: https://pokeapi.co/api/v2/encounter-method/${encounterMethods},PokeApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1149,0,1,1,https://pokeapi.co/api/v2/encounter-method/${encounterMethods},0,0,0
+1687539734782,96,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1919,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,96,0,69
+1687539734782,97,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1929,164,3,3,https://pokeapi.co/api/v2/berry/razz,96,0,68
+1687539734782,98,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1933,165,3,3,https://pokeapi.co/api/v2/berry/pinap,98,0,69
+1687539734879,23,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2474,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,23,0,0
+1687539734879,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2607,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687539734880,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2230,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687539734903,23,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4129,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,23,0,0
+1687539734904,24,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4199,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687539734904,24,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4125,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,24,0,0
+1687539734929,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1750,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687539734929,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1758,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687539734926,29,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1762,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,29,0,0
+1687539734953,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1554,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687539734955,29,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1523,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,28,0,0
+1687539734953,38,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1553,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,38,0,0
+1687539734975,27,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2778,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,27,0,0
+1687539734984,28,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,28,0,0
+1687539734991,24,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,2005,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,24,0,0
+1687539735003,22,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1686,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,22,0,0
+1687539735013,22,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1619,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,22,0,0
+1687539735016,22,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1618,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,22,0,0
+1687539735025,33,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-3,text,true,,14516,169,3,3,https://pokeapi.co/api/v2/location-area/2,31,0,0
+1687539735035,25,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-2,text,true,,15663,169,3,3,https://pokeapi.co/api/v2/location-area/3,24,0,0
+1687539735039,28,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-1,text,true,,15989,169,3,3,https://pokeapi.co/api/v2/location-area/1,26,0,0
+1687539735058,26,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-3,text,true,,7193,162,3,3,https://pokeapi.co/api/v2/region/2,25,0,0
+1687539735061,23,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-2,text,true,,10204,162,3,3,https://pokeapi.co/api/v2/region/3,22,0,0
+1687539735067,32,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-1,text,true,,9460,162,3,3,https://pokeapi.co/api/v2/region/1,30,0,0
+1687539735084,27,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-3,text,true,,20825,169,3,3,https://pokeapi.co/api/v2/pal-park-area/2,24,0,0
+1687539735085,30,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-2,text,true,,18218,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,28,0,0
+1687539735099,30,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-1,text,true,,12570,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,29,0,0
+1687539735115,24,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-2,text,true,,1389,164,3,3,https://pokeapi.co/api/v2/machine/12,24,0,0
+1687539735130,28,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-1,text,true,,1336,164,3,3,https://pokeapi.co/api/v2/machine/10,28,0,0
+1687539735159,24,pokeapi.co/api/v2/language/1,200,OK,PokeApi - run 1-1,text,true,,1786,164,3,3,https://pokeapi.co/api/v2/language/1,24,0,0
+1687539735188,28,pokeapi.co/api/v2/evolution-chain/3,200,OK,PokeApi - run 1-1,text,true,,2409,171,3,3,https://pokeapi.co/api/v2/evolution-chain/3,28,0,0
+1687539735217,22,pokeapi.co/api/v2/evolution-trigger/4,200,OK,PokeApi - run 1-1,text,true,,1551,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/4,22,0,0
+1687539735111,214,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-3,text,true,,1333,164,3,3,https://pokeapi.co/api/v2/machine/11,213,0,0
+1687539735139,217,pokeapi.co/api/v2/language/3,200,OK,PokeApi - run 1-2,text,true,,1714,164,3,3,https://pokeapi.co/api/v2/language/3,217,0,0
+1687539735356,32,pokeapi.co/api/v2/evolution-chain/5,200,OK,PokeApi - run 1-2,text,true,,2441,171,3,3,https://pokeapi.co/api/v2/evolution-chain/5,32,0,0
+1687539735325,212,pokeapi.co/api/v2/language/2,200,OK,PokeApi - run 1-3,text,true,,1658,164,3,3,https://pokeapi.co/api/v2/language/2,212,0,0
+1687539735537,26,pokeapi.co/api/v2/evolution-chain/7,200,OK,PokeApi - run 1-3,text,true,,2275,171,3,3,https://pokeapi.co/api/v2/evolution-chain/7,26,0,0
+1687539735389,230,pokeapi.co/api/v2/evolution-trigger/6,200,OK,PokeApi - run 1-2,text,true,,1341,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/6,230,0,0
+1687539735563,213,pokeapi.co/api/v2/evolution-trigger/8,200,OK,PokeApi - run 1-3,text,true,,1354,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/8,213,0,0
+1687539735240,685,pokeapi.co/api/v2/encounter-method/1,200,OK,PokeApi - run 1-1,text,true,,1519,172,3,3,https://pokeapi.co/api/v2/encounter-method/1,685,0,0
+1687539735620,612,pokeapi.co/api/v2/encounter-method/3,200,OK,PokeApi - run 1-2,text,true,,1546,172,2,2,https://pokeapi.co/api/v2/encounter-method/3,611,0,0
+1687539735777,1135,pokeapi.co/api/v2/encounter-method/2,200,OK,PokeApi - run 1-3,text,true,,1471,172,1,1,https://pokeapi.co/api/v2/encounter-method/2,1135,0,0
+1687539763531,89,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1923,165,3,3,https://pokeapi.co/api/v2/berry/pinap,89,0,66
+1687539763531,89,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-2,text,true,,1923,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,89,0,65
+1687539763531,94,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-3,text,true,,1954,164,3,3,https://pokeapi.co/api/v2/berry/razz,94,0,65
+1687539763621,24,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,23,0,0
+1687539763621,26,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-2,text,true,,2476,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,26,0,0
+1687539763625,22,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-3,text,true,,2603,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,22,0,0
+1687539763645,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4207,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,24,0,0
+1687539763648,22,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-3,text,true,,4120,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,21,0,0
+1687539763648,24,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-2,text,true,,4123,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,24,0,0
+1687539763670,22,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-3,text,true,,1756,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,22,0,0
+1687539763670,23,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-1,text,true,,1756,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,23,0,0
+1687539763673,24,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-2,text,true,,1766,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,23,0,0
+1687539763692,24,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,1544,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,23,0,0
+1687539763693,24,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1534,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,24,0,0
+1687539763697,24,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1521,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,24,0,0
+1687539763718,21,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-1,text,true,,1996,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,21,0,0
+1687539763716,23,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-3,text,true,,2780,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,23,0,0
+1687539763721,25,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-2,text,true,,1986,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,25,0,0
+1687539763739,24,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-1,text,true,,1610,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,23,0,0
+1687539763739,24,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-3,text,true,,1688,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,23,0,0
+1687539763746,25,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-2,text,true,,1613,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,25,0,0
+1687539763763,25,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-3,text,true,,14513,169,3,3,https://pokeapi.co/api/v2/location-area/2,23,0,0
+1687539763763,26,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-1,text,true,,16043,169,3,3,https://pokeapi.co/api/v2/location-area/1,23,0,0
+1687539763772,33,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-2,text,true,,15661,169,3,3,https://pokeapi.co/api/v2/location-area/3,31,0,0
+1687539763788,24,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-3,text,true,,7188,162,3,3,https://pokeapi.co/api/v2/region/2,23,0,0
+1687539763789,24,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-1,text,true,,9459,162,3,3,https://pokeapi.co/api/v2/region/1,22,0,0
+1687539763814,23,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-1,text,true,,12577,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,21,0,0
+1687539763813,24,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-3,text,true,,20820,169,3,3,https://pokeapi.co/api/v2/pal-park-area/2,22,0,0
+1687539763806,37,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-2,text,true,,10204,162,3,3,https://pokeapi.co/api/v2/region/3,35,0,0
+1687539763837,22,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-1,text,true,,1340,164,3,3,https://pokeapi.co/api/v2/machine/10,22,0,0
+1687539763837,22,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-3,text,true,,1345,164,3,3,https://pokeapi.co/api/v2/machine/11,22,0,0
+1687539763843,26,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-2,text,true,,18222,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,24,0,0
+1687539763859,22,pokeapi.co/api/v2/language/2,200,OK,PokeApi - run 1-3,text,true,,1660,164,3,3,https://pokeapi.co/api/v2/language/2,22,0,0
+1687539763869,22,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-2,text,true,,1403,164,3,3,https://pokeapi.co/api/v2/machine/12,22,0,0
+1687539763881,22,pokeapi.co/api/v2/evolution-chain/5,200,OK,PokeApi - run 1-3,text,true,,2435,171,3,3,https://pokeapi.co/api/v2/evolution-chain/5,22,0,0
+1687539763892,23,pokeapi.co/api/v2/language/3,200,OK,PokeApi - run 1-2,text,true,,1726,164,3,3,https://pokeapi.co/api/v2/language/3,23,0,0
+1687539763904,21,pokeapi.co/api/v2/evolution-trigger/6,200,OK,PokeApi - run 1-3,text,true,,1353,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/6,21,0,0
+1687539763915,23,pokeapi.co/api/v2/evolution-chain/7,200,OK,PokeApi - run 1-2,text,true,,2310,171,3,3,https://pokeapi.co/api/v2/evolution-chain/7,23,0,0
+1687539763938,23,pokeapi.co/api/v2/evolution-trigger/8,200,OK,PokeApi - run 1-2,text,true,,1368,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/8,23,0,0
+1687539763859,190,pokeapi.co/api/v2/language/1,200,OK,PokeApi - run 1-1,text,true,,1788,164,3,3,https://pokeapi.co/api/v2/language/1,190,0,0
+1687539764049,22,pokeapi.co/api/v2/evolution-chain/3,200,OK,PokeApi - run 1-1,text,true,,2400,171,3,3,https://pokeapi.co/api/v2/evolution-chain/3,20,0,0
+1687539763925,199,pokeapi.co/api/v2/encounter-method/2,200,OK,PokeApi - run 1-3,text,true,,1474,172,3,3,https://pokeapi.co/api/v2/encounter-method/2,199,0,0
+1687539763961,207,pokeapi.co/api/v2/encounter-method/3,200,OK,PokeApi - run 1-2,text,true,,1539,172,3,3,https://pokeapi.co/api/v2/encounter-method/3,207,0,0
+1687539764071,202,pokeapi.co/api/v2/evolution-trigger/4,200,OK,PokeApi - run 1-1,text,true,,1547,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/4,202,0,0
+1687539764274,196,pokeapi.co/api/v2/encounter-method/1,200,OK,PokeApi - run 1-1,text,true,,1497,172,3,3,https://pokeapi.co/api/v2/encounter-method/1,196,0,0
+1687539764168,711,pokeapi.co/api/v2/encounter-condition/13,200,OK,PokeApi - run 1-2,text,true,,1259,176,3,3,https://pokeapi.co/api/v2/encounter-condition/13,711,0,0
+1687539764125,761,pokeapi.co/api/v2/encounter-condition/12,200,OK,PokeApi - run 1-3,text,true,,1787,176,2,2,https://pokeapi.co/api/v2/encounter-condition/12,761,0,0
+1687539764471,1199,pokeapi.co/api/v2/encounter-condition/11,200,OK,PokeApi - run 1-1,text,true,,1956,176,1,1,https://pokeapi.co/api/v2/encounter-condition/11,1199,0,0
+1687539804265,85,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1921,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,85,0,63
+1687539804265,85,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-1,text,true,,1956,164,3,3,https://pokeapi.co/api/v2/berry/razz,85,0,62
+1687539804265,88,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-2,text,true,,1923,165,3,3,https://pokeapi.co/api/v2/berry/pinap,87,0,64
+1687539804351,26,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-1,text,true,,2645,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,25,0,0
+1687539804351,26,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2470,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,25,0,0
+1687539804353,27,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-2,text,true,,2228,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,27,0,0
+1687539804378,25,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-1,text,true,,4121,172,3,3,https://pokeapi.co/api/v2/berry-flavor/spicy,24,0,0
+1687539804378,28,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4127,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,28,0,0
+1687539804381,31,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-2,text,true,,4199,170,3,3,https://pokeapi.co/api/v2/berry-flavor/dry,30,0,0
+1687539804403,23,pokeapi.co/api/v2/contest-type/beauty,200,OK,PokeApi - run 1-1,text,true,,1760,173,3,3,https://pokeapi.co/api/v2/contest-type/beauty,23,0,0
+1687539804407,25,pokeapi.co/api/v2/contest-type/cute,200,OK,PokeApi - run 1-3,text,true,,1750,171,3,3,https://pokeapi.co/api/v2/contest-type/cute,25,0,0
+1687539804413,27,pokeapi.co/api/v2/contest-type/cool,200,OK,PokeApi - run 1-2,text,true,,1752,171,3,3,https://pokeapi.co/api/v2/contest-type/cool,27,0,0
+1687539804427,22,pokeapi.co/api/v2/contest-effect/11,200,OK,PokeApi - run 1-1,text,true,,1546,171,3,3,https://pokeapi.co/api/v2/contest-effect/11,22,0,0
+1687539804432,22,pokeapi.co/api/v2/contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1521,171,3,3,https://pokeapi.co/api/v2/contest-effect/12,22,0,0
+1687539804440,24,pokeapi.co/api/v2/contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,1541,171,3,3,https://pokeapi.co/api/v2/contest-effect/10,23,0,0
+1687539804450,24,pokeapi.co/api/v2/super-contest-effect/11,200,OK,PokeApi - run 1-1,text,true,,2776,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/11,24,0,0
+1687539804455,22,pokeapi.co/api/v2/super-contest-effect/12,200,OK,PokeApi - run 1-3,text,true,,1988,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/12,22,0,0
+1687539804464,24,pokeapi.co/api/v2/super-contest-effect/10,200,OK,PokeApi - run 1-2,text,true,,1995,177,3,3,https://pokeapi.co/api/v2/super-contest-effect/10,24,0,0
+1687539804474,25,pokeapi.co/api/v2/location/eterna-city,200,OK,PokeApi - run 1-1,text,true,,1688,174,3,3,https://pokeapi.co/api/v2/location/eterna-city,25,0,0
+1687539804477,24,pokeapi.co/api/v2/location/pastoria-city,200,OK,PokeApi - run 1-3,text,true,,1625,176,3,3,https://pokeapi.co/api/v2/location/pastoria-city,24,0,0
+1687539804489,22,pokeapi.co/api/v2/location/canalave-city,200,OK,PokeApi - run 1-2,text,true,,1612,176,3,3,https://pokeapi.co/api/v2/location/canalave-city,22,0,0
+1687539804502,23,pokeapi.co/api/v2/location-area/3,200,OK,PokeApi - run 1-3,text,true,,15661,169,3,3,https://pokeapi.co/api/v2/location-area/3,20,0,0
+1687539804500,29,pokeapi.co/api/v2/location-area/2,200,OK,PokeApi - run 1-1,text,true,,14513,169,3,3,https://pokeapi.co/api/v2/location-area/2,27,0,0
+1687539804511,24,pokeapi.co/api/v2/location-area/1,200,OK,PokeApi - run 1-2,text,true,,15985,169,3,3,https://pokeapi.co/api/v2/location-area/1,22,0,0
+1687539804525,24,pokeapi.co/api/v2/region/3,200,OK,PokeApi - run 1-3,text,true,,10204,162,3,3,https://pokeapi.co/api/v2/region/3,23,0,0
+1687539804529,23,pokeapi.co/api/v2/region/2,200,OK,PokeApi - run 1-1,text,true,,7188,162,3,3,https://pokeapi.co/api/v2/region/2,21,0,0
+1687539804535,25,pokeapi.co/api/v2/region/1,200,OK,PokeApi - run 1-2,text,true,,9468,162,3,3,https://pokeapi.co/api/v2/region/1,23,0,0
+1687539804549,26,pokeapi.co/api/v2/pal-park-area/3,200,OK,PokeApi - run 1-3,text,true,,18224,169,3,3,https://pokeapi.co/api/v2/pal-park-area/3,24,0,0
+1687539804553,24,pokeapi.co/api/v2/pal-park-area/2,200,OK,PokeApi - run 1-1,text,true,,20826,169,3,3,https://pokeapi.co/api/v2/pal-park-area/2,21,0,0
+1687539804560,24,pokeapi.co/api/v2/pal-park-area/1,200,OK,PokeApi - run 1-2,text,true,,12578,169,3,3,https://pokeapi.co/api/v2/pal-park-area/1,23,0,0
+1687539804578,31,pokeapi.co/api/v2/machine/11,200,OK,PokeApi - run 1-1,text,true,,1353,164,3,3,https://pokeapi.co/api/v2/machine/11,31,0,0
+1687539804584,25,pokeapi.co/api/v2/machine/10,200,OK,PokeApi - run 1-2,text,true,,1344,164,3,3,https://pokeapi.co/api/v2/machine/10,25,0,0
+1687539804575,34,pokeapi.co/api/v2/machine/12,200,OK,PokeApi - run 1-3,text,true,,1397,164,3,3,https://pokeapi.co/api/v2/machine/12,34,0,0
+1687539804609,23,pokeapi.co/api/v2/language/3,200,OK,PokeApi - run 1-3,text,true,,1724,164,3,3,https://pokeapi.co/api/v2/language/3,23,0,0
+1687539804609,23,pokeapi.co/api/v2/language/2,200,OK,PokeApi - run 1-1,text,true,,1666,164,3,3,https://pokeapi.co/api/v2/language/2,23,0,0
+1687539804609,34,pokeapi.co/api/v2/language/1,200,OK,PokeApi - run 1-2,text,true,,1792,164,3,3,https://pokeapi.co/api/v2/language/1,34,0,0
+1687539804632,23,pokeapi.co/api/v2/evolution-chain/7,200,OK,PokeApi - run 1-1,text,true,,2306,171,3,3,https://pokeapi.co/api/v2/evolution-chain/7,23,0,0
+1687539804632,26,pokeapi.co/api/v2/evolution-chain/5,200,OK,PokeApi - run 1-3,text,true,,2436,171,3,3,https://pokeapi.co/api/v2/evolution-chain/5,26,0,0
+1687539804644,27,pokeapi.co/api/v2/evolution-chain/3,200,OK,PokeApi - run 1-2,text,true,,2403,171,3,3,https://pokeapi.co/api/v2/evolution-chain/3,27,0,0
+1687539804657,23,pokeapi.co/api/v2/evolution-trigger/8,200,OK,PokeApi - run 1-1,text,true,,1364,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/8,23,0,0
+1687539804658,22,pokeapi.co/api/v2/evolution-trigger/6,200,OK,PokeApi - run 1-3,text,true,,1353,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/6,22,0,0
+1687539804671,25,pokeapi.co/api/v2/evolution-trigger/4,200,OK,PokeApi - run 1-2,text,true,,1545,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/4,25,0,0
+1687539804680,24,pokeapi.co/api/v2/encounter-method/3,200,OK,PokeApi - run 1-1,text,true,,1564,172,3,3,https://pokeapi.co/api/v2/encounter-method/3,24,0,0
+1687539804697,26,pokeapi.co/api/v2/encounter-method/1,200,OK,PokeApi - run 1-2,text,true,,1506,172,3,3,https://pokeapi.co/api/v2/encounter-method/1,26,0,0
+1687539804704,24,pokeapi.co/api/v2/encounter-condition/13,200,OK,PokeApi - run 1-1,text,true,,1277,176,3,3,https://pokeapi.co/api/v2/encounter-condition/13,24,0,0
+1687539804680,201,pokeapi.co/api/v2/encounter-method/2,200,OK,PokeApi - run 1-3,text,true,,1470,172,3,3,https://pokeapi.co/api/v2/encounter-method/2,201,0,0
+1687539804723,203,pokeapi.co/api/v2/encounter-condition/11,200,OK,PokeApi - run 1-2,text,true,,1959,176,3,3,https://pokeapi.co/api/v2/encounter-condition/11,203,0,0
+1687539804882,207,pokeapi.co/api/v2/encounter-condition/12,200,OK,PokeApi - run 1-3,text,true,,1788,176,3,3,https://pokeapi.co/api/v2/encounter-condition/12,207,0,0
+1687539805090,623,pokeapi.co/api/v2/encounter-condition-value/22,200,OK,PokeApi - run 1-3,text,true,,1432,182,3,3,https://pokeapi.co/api/v2/encounter-condition-value/22,623,0,0
+1687539804927,941,pokeapi.co/api/v2/encounter-condition-value/21,200,OK,PokeApi - run 1-2,text,true,,1438,182,2,2,https://pokeapi.co/api/v2/encounter-condition-value/21,941,0,0
+1687539804729,1180,pokeapi.co/api/v2/encounter-condition-value/23,200,OK,PokeApi - run 1-1,text,true,,1434,182,1,1,https://pokeapi.co/api/v2/encounter-condition-value/23,1180,0,0

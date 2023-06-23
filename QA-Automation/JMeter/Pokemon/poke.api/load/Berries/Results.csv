@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687539990934,147,pokeapi.co/api/v2/berry/iapapa,200,OK,PokeApi - run 1-3,text,true,,1921,166,3,3,https://pokeapi.co/api/v2/berry/iapapa,147,0,120
+1687539990934,156,pokeapi.co/api/v2/berry/razz,200,OK,PokeApi - run 1-2,text,true,,1925,164,3,3,https://pokeapi.co/api/v2/berry/razz,155,0,120
+1687539990934,160,pokeapi.co/api/v2/berry/pinap,200,OK,PokeApi - run 1-1,text,true,,1923,165,3,3,https://pokeapi.co/api/v2/berry/pinap,160,0,120
+1687539991084,25,pokeapi.co/api/v2/berry-firmness/super-hard,200,OK,PokeApi - run 1-3,text,true,,2474,179,3,3,https://pokeapi.co/api/v2/berry-firmness/super-hard,24,0,0
+1687539991091,25,pokeapi.co/api/v2/berry-firmness/hard,200,OK,PokeApi - run 1-2,text,true,,2609,173,3,3,https://pokeapi.co/api/v2/berry-firmness/hard,24,0,0
+1687539991094,28,pokeapi.co/api/v2/berry-firmness/very-soft,200,OK,PokeApi - run 1-1,text,true,,2224,178,3,3,https://pokeapi.co/api/v2/berry-firmness/very-soft,28,0,0
+1687539991109,26,pokeapi.co/api/v2/berry-flavor/sweet,200,OK,PokeApi - run 1-3,text,true,,4119,172,3,3,https://pokeapi.co/api/v2/berry-flavor/sweet,25,0,0
+1687539991116,25,pokeapi.co/api/v2/berry-flavor/spicy,200,OK,PokeApi - run 1-2,text,true,,4117,172,2,2,https://pokeapi.co/api/v2/berry-flavor/spicy,24,0,0
+1687539991123,25,pokeapi.co/api/v2/berry-flavor/dry,200,OK,PokeApi - run 1-1,text,true,,4213,170,1,1,https://pokeapi.co/api/v2/berry-flavor/dry,25,0,0

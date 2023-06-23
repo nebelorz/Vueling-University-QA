@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687540498298,137,pokeapi.co/api/v2/evolution-chain/5,200,OK,PokeApi - run 1-2,text,true,,2447,171,3,3,https://pokeapi.co/api/v2/evolution-chain/5,137,0,111
+1687540498298,137,pokeapi.co/api/v2/evolution-chain/7,200,OK,PokeApi - run 1-1,text,true,,2275,171,3,3,https://pokeapi.co/api/v2/evolution-chain/7,136,0,111
+1687540498298,140,pokeapi.co/api/v2/evolution-chain/3,200,OK,PokeApi - run 1-3,text,true,,2412,171,3,3,https://pokeapi.co/api/v2/evolution-chain/3,140,0,111
+1687540498437,23,pokeapi.co/api/v2/evolution-trigger/8,200,OK,PokeApi - run 1-1,text,true,,1360,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/8,23,0,0
+1687540498439,21,pokeapi.co/api/v2/evolution-trigger/4,200,OK,PokeApi - run 1-3,text,true,,1549,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/4,21,0,0
+1687540498437,24,pokeapi.co/api/v2/evolution-trigger/6,200,OK,PokeApi - run 1-2,text,true,,1353,173,3,3,https://pokeapi.co/api/v2/evolution-trigger/6,24,0,0
