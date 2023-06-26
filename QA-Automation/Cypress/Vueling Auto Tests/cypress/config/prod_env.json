@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://skysales-bilbo.vueling.com/",
+  "env": {
+    "timeOutTime": "30000"
+  }
+}
