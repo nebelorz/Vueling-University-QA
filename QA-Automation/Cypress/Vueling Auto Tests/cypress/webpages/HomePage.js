@@ -15,12 +15,13 @@ export class HomePage {
   };
 
   datepicker = {
-    leftMonth: () => cy.get(".ui-datepicker-group-first"),
+    leftMonth: () => cy.get(".ui-datepicker-group-first .ui-datepicker-month"),
     buttonNextMonth: () => cy.get(".ui-datepicker-next"),
     availableDays: () => cy.get('[data-handler="selectDay"]'),
   };
 
   paxMenu = {
+    adultsClickSelect: () => cy.getID("DropDownListPassengerType_ADT_PLUS"),
     adultsSelect: () => cy.getID("adtSelectorDropdown"),
     childsSelect: () => cy.getID("AvailabilitySearchInputSearchView_DropDownListPassengerType_CHD"),
     infantsSelect: () =>
@@ -46,13 +47,24 @@ export class HomePage {
     this.searcher.destinationDropdown().first().click();
   }
 
-  pickAvailableDate() {
+  pickAvailableDate(month) {
     this.datepicker.leftMonth().should("be.visible");
-    this.datepicker.availableDays().eq(1).click();
+    this.datepicker.leftMonth().then((getMonthName) => {
+      const monthName = getMonthName.text();
+
+      if (monthName !== month) {
+        this.datepicker.buttonNextMonth().click();
+        return this.pickAvailableDate(month);
+      }
+
+      this.datepicker.leftMonth().invoke("text").should("be.equal", month);
+      this.datepicker.availableDays().eq(1).click();
+    });
   }
 
   selectPax(adults, childs, infants) {
-    this.paxMenu.adultsSelect().select(adults, { force: true });
+    this.paxMenu.adultsClickSelect().click();
+    this.paxMenu.adultsSelect().select(adults);
     this.paxMenu.childsSelect().select(childs);
     this.paxMenu.infantsSelect().select(infants);
   }

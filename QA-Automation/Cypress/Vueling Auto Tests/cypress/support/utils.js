@@ -146,7 +146,7 @@ cy.getRandomFirstName = () => {
     "Jacob",
     "Victoria",
   ];
-  const randomFirstName = Math.floor(Marh.random() * firstNames.length);
+  const randomFirstName = Math.floor(Math.random() * firstNames.length);
   const firstName = firstNames[randomFirstName];
   return firstName;
 };
@@ -184,7 +184,7 @@ cy.getRandomLastName = () => {
     "Murphy",
     "Rogers",
   ];
-  const randomlastName = Math.floor(Marh.random() * lastNames.length);
+  const randomlastName = Math.floor(Math.random() * lastNames.length);
   const lastName = lastNames[randomlastName];
   return lastName;
 };
