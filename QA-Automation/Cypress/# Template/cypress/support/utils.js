@@ -100,93 +100,10 @@ cy.getRandomNumber = () => {
   let possible = "0123456789";
 
   for (let i = 0; i < 9; i++) {
-    randomNumber += possible.charAt(
-      Math.floor(Math.random() * possible.length)
-    );
+    randomNumber += possible.charAt(Math.floor(Math.random() * possible.length));
   }
 
   return randomNumber;
-};
-
-cy.getRandomFirstName = () => {
-  const firstNames = [
-    "John",
-    "Jane",
-    "Mike",
-    "Emily",
-    "Alex",
-    "Oliver",
-    "Sophia",
-    "William",
-    "Emma",
-    "Liam",
-    "Ava",
-    "James",
-    "Mia",
-    "Benjamin",
-    "Charlotte",
-    "Lucas",
-    "Amelia",
-    "Henry",
-    "Harper",
-    "Alexander",
-    "Evelyn",
-    "Daniel",
-    "Abigail",
-    "Matthew",
-    "Elizabeth",
-    "Michael",
-    "Sofia",
-    "David",
-    "Grace",
-    "Joseph",
-    "Chloe",
-    "Samuel",
-    "Ella",
-    "Jacob",
-    "Victoria",
-  ];
-  const randomFirstName = Math.floor(Marh.random() * firstNames.length);
-  const firstName = firstNames[randomFirstName];
-  return firstName;
-};
-
-cy.getRandomLastName = () => {
-  const lastNames = [
-    "Smith",
-    "Johnson",
-    "Williams",
-    "Brown",
-    "Jones",
-    "Davis",
-    "Miller",
-    "Wilson",
-    "Moore",
-    "Taylor",
-    "Anderson",
-    "Thomas",
-    "Jackson",
-    "White",
-    "Harris",
-    "Clark",
-    "Lewis",
-    "Walker",
-    "Hall",
-    "Young",
-    "Allen",
-    "King",
-    "Wright",
-    "Scott",
-    "Turner",
-    "Parker",
-    "Collins",
-    "Cook",
-    "Murphy",
-    "Rogers",
-  ];
-  const randomlastName = Math.floor(Marh.random() * lastNames.length);
-  const lastName = lastNames[randomlastName];
-  return lastName;
 };
 
 cy.getRandomString = (length) => {

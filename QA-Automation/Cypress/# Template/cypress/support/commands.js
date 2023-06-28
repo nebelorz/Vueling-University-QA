@@ -30,9 +30,14 @@ Cypress.Commands.add("addContext", (context) => {
   cy.once("test:after:run", (test) => addContext({ test }, context));
 });
 
-// Command 'cy.getId' to search by id in case cy.get doesn't work (?)
+// Command 'cy.getID' to search by id in case cy.get doesn't work (?)
 Cypress.Commands.add("getID", (id) => {
   cy.get(`#${id}`);
+});
+
+// Command 'cy.getClass' to search by class in case cy.get doesn't work (?)
+Cypress.Commands.add("getClass", (className) => {
+  cy.get(`#${className}`);
 });
 
 // Command to throw an error with given text by parameter
