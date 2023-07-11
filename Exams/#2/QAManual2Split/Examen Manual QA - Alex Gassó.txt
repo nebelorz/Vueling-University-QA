@@ -1,0 +1,29 @@
+1- Las siglas QA significan:
+C - Quality Assurance.
+
+2- Si tenemos una funcionalidad que ha pasado por el entorno de QA y se le han relizado las pruebas de producto y realizando las pruebas de PRE encontramos una incidencia, ¿qué es lo primero que hacemos?:
+D - Ninguna de las anteriores (es un problema de integración).
+
+3- Las pruebas de caja blanca son:
+A - Las que validan la estructura interna del código, arquitectura etc.
+
+4- La paradoja del pesticida es:
+C - Realizar las mismas pruebas una y otra vez sin encontrar defectos ni actualizar los casos.
+
+5- En una empresa ideal, los entornos deben de ser:
+D - PROD, INT, PRE, QA, DEV
+
+6- En la pirámide de cobertura de test de QA en la cual nos basamos en Vueling y se ha mostrado y explicado en clases anteriores de QA Manual, el orden de mayor cobertura de test a menor cobertura sería:
+B - Unit Testing -> Integration Testing -> Functional Testing
+
+7- Requiere la ejecución del software:
+D - Pruebas dinámicas
+
+8- ¿Es posible tener una aplicación con 0% de errores?
+C - No, la ausencia de errores es una falacia
+
+9- Las pruebas estáticas evalúan:
+C - Especificaciones, requisitos de seguridad, historias de usuario, criterios de aceptación etc.
+
+10- El diseño de pruebas de caja blanca implica tener:
+D - Conocimientos de unit testing e integration testing.

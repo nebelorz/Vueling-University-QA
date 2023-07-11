@@ -1,0 +1,16 @@
+{
+    "adult1" : {
+        "name": "John",
+        "lastname": "Smith"
+    },
+
+    "adult2" : {
+        "name": "Sarah",
+        "lastname": "Connor"
+    },
+
+    "infant" : {
+        "name": "Pedro",
+        "lastname": "García"
+    }
+}

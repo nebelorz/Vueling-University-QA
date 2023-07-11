@@ -1,0 +1,52 @@
+---
+settings:
+  # ! ALL paths without blank spaces
+  artifacts-dir: C:\Users\a_gas\Desktop\AlexGasso\QAAutoJmeter\vy.availability\load\artifacts_tmp
+  env:
+    BASE_DIR: C:\Users\a_gas\Desktop\AlexGasso\QAAutoJmeter\vy.availability\
+
+services:
+  - module: shellexec
+    post-process:
+      - mkdir ${BASE_DIR}\load\default\HTML
+      - jmeter -g ${BASE_DIR}\load\default\Results.csv -o ${BASE_DIR}\load\default\HTML
+
+execution:
+  - executor: jmeter
+    scenario: load
+
+scenarios:
+  smoke:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: ams-tst.main.ams-dev.eu-west-1.vy-a.cloud
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\default\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\default\Errors.csv
+      TestDuration: 10
+      RampUp: 0
+      Threads: 1
+      Rpm: 1
+
+  load:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: ams-tst.main.ams-dev.eu-west-1.vy-a.cloud
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\default\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\default\Errors.csv
+      TestDuration: 120
+      RampUp: 40
+      Threads: 10
+      Rpm: 30
+
+reporting:
+  - module: final-stats
+    summary: true
+    percentiles: true
+    failed-labels: false
+    test-duration: true
+  - module: blazemeter
+    report-name: Taurus test report - Availability
+    test: Taurus test
+    project: Availability
